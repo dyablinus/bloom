@@ -238,9 +238,9 @@
                             <div class="contact-details">
                                 <p>Si vous avez des question a propos de notre projet, ou que vous souhaiter nous rejoindre, n'hésitez pas à nous contacter</p>
                                 <ul class="list-unstyled">
-                                    <li><i class="fa fa-fw fa-map-marker"></i>Rue de la révolution 18, 1000 Bruxelles</li>
+                                    <li><i class="fa fa-fw fa-map-marker"></i>Place de la minoterie 10, 1080 Molenbeek</li>
                                     <li><i class="fa fa-fw fa-phone"></i><a href="tel:04-721-820">04 721 820</a></li>
-                                    <li><i class="fa fa-fw fa-envelope-o"></i><a href="mailto:contact@emergence.be">contact@emergence.be</a></li>
+                                    <li><i class="fa fa-fw fa-envelope-o"></i><a href="mailto:contact@howbloomerareyou.com">contact@howbloomerareyou.com</a></li>
                                 </ul>
                             </div>
                         </div><!-- End of col-sm-6 -->
