@@ -17,9 +17,9 @@
 					
 					<!-- Buttons start -->
 					<div class="btn-holder">
-						<a href="javascript:void(0)" class="btn btn-custom btn-transparent" onclick="openAboutStyle()">About</a>
+						<a href="javascript:void(0)" class="btn btn-custom btn-transparent" onclick="openAboutStyle()">Bloom ?</a>
 						<a href="javascript:void(0)" class="btn btn-custom btn-transparent" onclick="openServicesStyle()">Services</a>
-						<a href="javascript:void(0)" class="btn btn-custom btn-transparent" onclick="openSubscribeStyle()">Subscribe</a>
+						<a href="javascript:void(0)" class="btn btn-custom btn-transparent" onclick="openSubscribeStyle()">Newsletter</a>
 						<a href="javascript:void(0)" class="btn btn-custom btn-transparent" onclick="openContactStyle()">Contact</a>
 					</div>
 					<!-- Buttons end -->
@@ -114,7 +114,7 @@
                                                 <div class="name-box text-center">
                                                     <h3>Jean <strong>Lejeune</strong></h3>
                                                 </div>
-                                                <p>Sed ut perspiciatis unde omnis iste natus error sit volup tatem therear accu santium doloremque dlaudan tiumee totam rem aperiam eaque ipsa.</p>
+                                                <p>Pragmatique, efficace et avec une bonne pointe de créativité, Jean aime utiliser les bons mots au bon moment. Il a d’ailleurs explorer sa passion en travaillant comme copywriter dans une agence de communication</p>
                                             </div><!-- end text-box -->
                                         </div><!-- end about-wrap -->
                                     </div><!-- end col -->
@@ -158,29 +158,8 @@
                             </div>
                             <div class="col-sm-4 col-xs-6">
                                 <div class="service-item">
-                                    <i class="fa fa-bolt fa-3x"></i>
-                                    <h3>Flash Design</h3>
-                                    <p>Sed ut perspiciatis unde omnis iste natus error sit volupe tatem there are accusantium doloremquee dlaudan aoe tiume totam rem aperiam.</p>
-                                </div>
-                            </div>
-                            <div class="col-sm-4 col-xs-6">
-                                <div class="service-item">
                                     <i class="fa fa-shopping-cart fa-3x"></i>
-                                    <h3>e-Commerce</h3>
-                                    <p>Sed ut perspiciatis unde omnis iste natus error sit volupe tatem there are accusantium doloremquee dlaudan aoe tiume totam rem aperiam.</p>
-                                </div>
-                            </div>
-                            <div class="col-sm-4 col-xs-6">
-                                <div class="service-item">
-                                    <i class="fa fa-wordpress fa-3x"></i>
-                                    <h3>CMS Customization</h3>
-                                    <p>Sed ut perspiciatis unde omnis iste natus error sit volupe tatem there are accusantium doloremquee dlaudan aoe tiume totam rem aperiam.</p>
-                                </div>
-                            </div>
-                            <div class="col-sm-4 col-xs-6">
-                                <div class="service-item">
-                                    <i class="fa fa-code fa-3x"></i>
-                                    <h3>App Devlopment</h3>
+                                    <h3>Flash Design</h3>
                                     <p>Sed ut perspiciatis unde omnis iste natus error sit volupe tatem there are accusantium doloremquee dlaudan aoe tiume totam rem aperiam.</p>
                                 </div>
                             </div>
@@ -202,10 +181,10 @@
                     <div class="row">
                         <div class="col-sm-8 col-sm-offset-2">
                             <div class="title-box">
-                                <h2>Subscribe</h2>
+                                <h2>Newsletter</h2>
                             </div>
-                            <p>If you leave us your email address, we'll let you know when our new website goes online - to ensure you do not miss it. Likewise, we'll stay up with the latest with customary news about our organization, and additionally the periodic exceptional offer.</p>
-                            <p>We'll never pass your email address on to outsiders, and you won't get any spam from us. That is a guarantee. Our messages are occasional, and we generally ensure they're loaded with only the best substance.</p>
+                            <p>N’hésitez pas à nous laisser votre adresse mail si vous voulez être certain de ne pas rater le lancement de notre site internet ! Nous vous tiendrons au courant de nos dernières actualités grâce à notre newsletter.
+                            Bien entendu, nous vous garantissons que nous ne partagerons jamais votre adresse et ne vous enverrons jamais de spam. Nos communications sont occasionnelles et toujours pertinentes. </p>
                             
                             <!-- Start mailchimp form -->
                             <div class="mc-form-holder">
@@ -231,12 +210,14 @@
             <div class="content">
                 <div class="container">
                     <div class="row">
-                        <div class="col-sm-6">
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                             <div class="title-box">
-                                <h2>Informations</h2>
+                                <h2>Contact</h2>
                             </div>
+                        </div>
+                        <div class="col-sm-6">
                             <div class="contact-details">
-                                <p>Si vous avez des question a propos de notre projet, ou que vous souhaiter nous rejoindre, n'hésitez pas à nous contacter</p>
+                                <p>Des questions ? Des remarques ? Ou juste envie de devenir un Bloomer ? N’hésitez pas à nous contacter !</p>
                                 <ul class="list-unstyled">
                                     <li><i class="fa fa-fw fa-map-marker"></i>Place de la minoterie 10, 1080 Molenbeek</li>
                                     <li><i class="fa fa-fw fa-phone"></i><a href="tel:04-721-820">04 721 820</a></li>
@@ -246,9 +227,6 @@
                         </div><!-- End of col-sm-6 -->
                         
                         <div class="col-sm-6">
-                            <div class="title-box">
-                                <h2>Nous écrire</h2>
-                            </div>
                             <!-- Start contact form -->
                             <form id="contactForm" name="contactform" data-toggle="validator" class="contact-form">
                                 <div id="msgSubmit" class="hidden"></div>

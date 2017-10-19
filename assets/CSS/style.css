@@ -58,8 +58,8 @@ p {
     width: 100%;
 }
 .overlay-content {
-	background-color: rgba(0, 0, 0, 0.7);
-	background-image: url(./images/back.jpg);
+	background-color: rgba(0, 0, 0, 0.5);
+	/* background-image: url(../images/back.jpg); */
     display: table;
     height: 100%;
     width: 100%;
@@ -227,7 +227,7 @@ p {
 #About.overlay { 
 	background-attachment: fixed;
 	background-size:  cover;
-	background-image: url(../images/bg4.jpg);
+	background-image: url(../images/backabout.jpg);
 	background-position: center center;
 	background-repeat:  no-repeat;
 	-webkit-transform: translateX(100%);
@@ -319,7 +319,7 @@ p {
 #Services.overlay { 
 	background-attachment: fixed;
 	background-size:  cover;
-	background-image: url(../images/bg1.jpg);
+	background-image: url(../images/backservices.jpg);
 	background-position: center center;
 	background-repeat:  no-repeat;
 	-webkit-transform: translateY(-100%);
@@ -405,7 +405,7 @@ p {
 #Subscribe.overlay {
 	background-attachment: fixed;
 	background-size:  cover;
-	background-image: url(../images/bg2.jpg);
+	background-image: url(../images/backnews.jpg);
 	background-position: center center;
 	background-repeat:  no-repeat;
 	-webkit-transform: translateX(-100%);
@@ -507,7 +507,7 @@ p {
 #myContact.overlay {
 	background-attachment: fixed;
 	background-size:  cover;
-	background-image: url(../images/bg3.jpg);
+	background-image: url(../images/backcontact.jpg);
 	background-position: center center;
 	background-repeat:  no-repeat;
 	-webkit-transform: translateY(100%);
