@@ -274,6 +274,11 @@ p {
 .about-wrap .text-box {
     padding-left: 60px;
 }
+
+ .text-box .title-box {
+    display: inline-block;
+
+}
 #About .about-wrap .text-box .title-box {
     margin: 0 0 30px;
 }
