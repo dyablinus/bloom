@@ -1,38 +1,4 @@
-/*
-|----------------------------------------------------------------------------
-|	Light - Coming Soon HTML5 Responsive Template Main CSS
-|	Author: MGScoder
-|	Author URL: https://themeforest.net/user/mgscoder
-|	Version: 1.0
-|----------------------------------------------------------------------------
-*/
 
-/*
-|------------------------------------------------------------------
-	[Table of contents]:
-
-	1. FONTS
-	2. BODY
-	3. COMMON CSS
-	4. Main front landing page / #Main
-	5. About Section / #About
-	6. Services Section / #Services
-	7. Subscribe Section / #Subscribe
-		7.1 Subscribe Form / #mc-form
-	8. Contact Section / #contactForm
-	9. Overlay / .overlay
-	10. SOCIAL
-	11. BUTTON / .btn-custom
-	12. Responsive
-	
-|-------------------------------------------------------------------
-*/
-
-/*
-|----------------------------------------------------------------------------
-	1. FONTS: Google Font
-|----------------------------------------------------------------------------
-*/
 @import url(https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i,900,900i);
 
 /*
@@ -79,7 +45,7 @@ a {
     color: #fff;
 }
 a:hover {
-    color: #fd5308;
+    color: #aa4a40;
 }
 p {
     margin: 0 0 30px;
@@ -93,7 +59,7 @@ p {
 }
 .overlay-content {
 	background-color: rgba(0, 0, 0, 0.7);
-	background-image: url(../images/bg_mask.png);
+	background-image: url(./images/back.jpg);
     display: table;
     height: 100%;
     width: 100%;
@@ -105,7 +71,7 @@ p {
 	vertical-align: middle;
 }
 .title-box::before {
-    background: #fd5308;
+    background: #aa4a40;
     bottom: 0;
     content: "";
     display: block;
@@ -160,7 +126,7 @@ p {
 #Main.overlay {
 	background-attachment: fixed;
 	background-size:  cover;
-	background-image: url(../images/bg.jpg);
+	background-image: url(../images/back.jpg);
 	background-position: center center;
 	background-repeat:  no-repeat;
 	text-align: center;
@@ -171,7 +137,7 @@ p {
 	transform: translateX(0);	
 }
 .coming-soon-text h1 {
-    color: #fd5308;
+    color: #aa4a40;
     font-size: 48px;
     font-weight: bold;
     margin: 0 0 30px;
@@ -201,7 +167,7 @@ p {
 	text-align: center;
 }
 .countdown-section::before {
-	border-color: #fd5308;
+	border-color: #aa4a40;
     border-radius: 20px 0;
     border-style: solid;
     border-width: 1px 5px;
@@ -282,8 +248,8 @@ p {
     text-align: center;
 }
 .about-wrap .icon-holder i {
-    background-color: #fd5308;
-	border: 1px solid #fd5308;
+    background-color: #aa4a40;
+	border: 1px solid #aa4a40;
     border-radius: 50%;
     color: #fff;
 	height: 40px;
@@ -294,10 +260,10 @@ p {
 .about-wrap:hover .icon-holder i {
     background-color: #fff;
 	border-color: #fff;
-    color: #fd5308;
+    color: #aa4a40;
 }
 .about-wrap li::before {
-	color: #fd5308;
+	color: #aa4a40;
     content: "\f046";
     font-family: fontawesome;
     padding-right: 8px;
@@ -324,7 +290,7 @@ p {
 	text-transform: capitalize;
 }
 .about-item:hover h3 {
-    color: #fd5308;
+    color: #aa4a40;
 }
 
 /*
@@ -364,11 +330,11 @@ p {
     padding: 30px 15px;
 }
 .service-item:hover {
-	border: 1px solid #fd5308;
+	border: 1px solid #aa4a40;
 	box-shadow: 0 0 10px 1px rgba(253, 83, 8, 0.5);
 }
 .service-item  i {
-	background-color: #fd5308;
+	background-color: #aa4a40;
     color: #fff;
     border-radius: 50%;
     font-size: 24px;
@@ -389,7 +355,7 @@ p {
 }
 .service-item:hover i {
 	background-color: #fff;
-    color: #fd5308;
+    color: #aa4a40;
 	-webkit-transform: rotateY(360deg);
     -moz-transform: rotateY(360deg);
     -ms-transform: rotateY(360deg);
@@ -407,7 +373,7 @@ p {
 	margin: 20px 0;
 }
 .service-item:hover h3 {
-    color: #fd5308;
+    color: #aa4a40;
 }
 .service-item p:last-child {
     margin: 0;
@@ -456,7 +422,7 @@ p {
 }
 #mc-form .form-control {
     background-color: transparent;
-    border: 1px solid #fd5308;    
+    border: 1px solid #aa4a40;    
     border-bottom-left-radius: 4px;
     border-bottom-right-radius: 0;
     border-top-left-radius: 4px;
@@ -470,12 +436,12 @@ p {
 }
 #mc-form .form-control:focus {
     border-color: #3e3e3e;
-    -webkit-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.075) inset, 0 0 6px 0 #fd5308;
-    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.075) inset, 0 0 6px 0 #fd5308;
+    -webkit-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.075) inset, 0 0 6px 0 #aa4a40;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.075) inset, 0 0 6px 0 #aa4a40;
     outline: 0 none;
 }
 #mc-form .btn {
-    background-color: #fd5308;
+    background-color: #aa4a40;
     border: medium none;
     border-radius: 0 4px 4px 0;
     box-sizing: border-box;
@@ -543,8 +509,8 @@ p {
     margin-bottom: 30px;
 }
 .contact-details .fa.fa-fw {
-	background-color: #fd5308;
-    border: 1px solid #fd5308;
+	background-color: #aa4a40;
+    border: 1px solid #aa4a40;
     border-radius: 50%;
     color: #fff;
     height: 28px;
@@ -566,7 +532,7 @@ p {
 	color: #fff;
 }
 .form-control:focus {
-	border-color: #fd5308;
+	border-color: #aa4a40;
 	box-shadow: 0 1px 1px rgba(253, 83, 8, 0.5) inset, 0 0 8px rgba(253, 83, 8, 0.5);
 }
 .input-group-icon {
@@ -579,7 +545,7 @@ p {
 	border-radius: 4px;
 	border-bottom-right-radius: 0;
     border-top-right-radius: 0;
-    color: #fd5308;
+    color: #aa4a40;
     font-size: 14px;
 	height: 100%;
     padding: 4px 7px;
@@ -593,7 +559,7 @@ p {
     width: 40px;
 }
 .form-control:focus + .input-group-icon{
-    background: #fd5308;
+    background: #aa4a40;
     color: #fff;
 }
 #contactForm span.sub-text {
@@ -611,11 +577,11 @@ p {
     color: #ffffff;
 }
 .has-error .form-control:focus {
-    border-color: #fd5308;
+    border-color: #aa4a40;
 	box-shadow: 0 1px 1px rgba(253, 83, 8, 0.5) inset, 0 0 8px rgba(253, 83, 8, 0.5);
 }
 .has-error .form-control:focus + .input-group-icon {
-    background: #fd5308;
+    background: #aa4a40;
     color: #fff;
 }
 #contactForm .btn.btn-custom {
@@ -678,7 +644,7 @@ form .text-danger {
     transition: 0.3s;
 }
 .overlay a.closebtn:hover, .overlay a.closebtn:focus {
-    color: #fd5308;
+    color: #aa4a40;
 }
 .overlay .closebtn {
     position: absolute;
@@ -781,7 +747,7 @@ form .text-danger {
 }
 .btn-custom {
     background-color: #fff;
-	border: 1px solid #fd5308;
+	border: 1px solid #aa4a40;
     box-shadow: 0 0 1px transparent;
 	color: #000;
     display: inline-block;
@@ -802,7 +768,7 @@ form .text-danger {
     vertical-align: middle;
 }
 .btn-custom::before {
-    background-color: #fd5308;
+    background-color: #aa4a40;
     bottom: 0;
     content: "";
     left: 0;
@@ -827,7 +793,7 @@ form .text-danger {
     z-index: -1;
 }
 .btn-custom:hover, .btn-custom:focus, .btn-custom:active {
-    border-color: #fd5308;
+    border-color: #aa4a40;
     color: #fff;
 }
 .btn-custom:hover::before, .btn-custom:focus::before, .btn-custom:active::before {

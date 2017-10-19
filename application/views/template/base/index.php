@@ -1,32 +1,47 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" media="screen" href="<?= base_url ("/node_modules/bootstrap/dist/css/bootstrap.min.css") ?>">
-    <link rel="stylesheet" href="<?= base_url("/node_modules/font-awesome/css/font-awesome.min.css") ?>">
-    <link rel="stylesheet" href="<?= base_url("/assets/css/style.css")?>">
-   
-    <title>Document</title>
+	<meta charset="utf-8">
+	<meta content="IE=edge" http-equiv="X-UA-Compatible">
+	<meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1" />
+	
+	<title>Emergence</title>
+	<!-- set your website meta description and keywords -->
+	<meta name="description" content="Add your website description here">
+	<meta name="keywords" content="Add your website keywords here">
+	<!-- set your website favicon icon -->
+	<link href="assets/images/logourban.ico" rel="icon">
+	
+	<!-- Bootstrap Stylesheets -->
+	<link rel="stylesheet" href="<?= base_url("assets/css/bootstrap.min.css") ?>">
+	<!-- Font Awesome Stylesheets -->
+	<link rel="stylesheet" href="<?= base_url("assets/css/font-awesome.min.css") ?>">
+	
+	<!-- Template Main Stylesheets -->
+	<link rel="stylesheet" type="text/css" href="<?= base_url("assets/css/style.css") ?>">
 </head>
 <body>
 
 
-<div class="container">
-<?php  $this->load->view('template/base/nav'); ?> 
 
-<?= $view_content ?> 
+<?php  $this->load->view('template/pages/home'); ?> 
 
 
-</div>
+
+
   
-    
-<?php $this->load->view('template/base/footer');?>
 
-
-
- <script src="<?= base_url ("/node_modules/jquery/dist/jquery.js") ?>"></script>
- <script src="<?= base_url ("/node_modules/bootstrap/dist/js/bootstrap.min.js") ?>"></script>
+    <!-- jQuery Library -->
+    <script src="<?= base_url("assets/js/jquery-3.1.1.min.js") ?>"></script>
+    <!-- countdown Js -->   
+    <script src="<?= base_url("assets/js/jquery.plugin.min.js") ?>"></script>
+    <script src="<?= base_url("assets/js/jquery.countdown.js") ?>"></script>
+    <!-- ajaxchimp Js -->
+    <script src="<?= base_url("assets/js/jquery.ajaxchimp.min.js") ?>"></script>
+    <!-- Form validator Js -->
+    <script src="<?= base_url("assets/js/validator.min.js") ?>"></script>
+    <!-- Template main Js -->
+    <script src="<?= base_url("assets/js/main.js") ?>"></script>     
 </body>
+
 </html>

@@ -1,27 +1,3 @@
-<!DOCTYPE html>
-<html lang="en-US">
-<head>
-	<meta charset="utf-8">
-	<meta content="IE=edge" http-equiv="X-UA-Compatible">
-	<meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1" />
-	
-	<title>Urbanpreneurs</title>
-	<!-- set your website meta description and keywords -->
-	<meta name="description" content="Add your website description here">
-	<meta name="keywords" content="Add your website keywords here">
-	<!-- set your website favicon icon -->
-	<link href="assets/images/logourban.ico" rel="icon">
-	
-	<!-- Bootstrap Stylesheets -->
-	<link rel="stylesheet" href="<?= base_url("assets/css/bootstrap.min.css") ?>">
-	<!-- Font Awesome Stylesheets -->
-	<link rel="stylesheet" href="<?= base_url("assets/css/font-awesome.min.css") ?>">
-	
-	<!-- Template Main Stylesheets -->
-	<link rel="stylesheet" type="text/css" href="<?= base_url("assets/css/style.css") ?>">
-</head>
-
-<body>
 	<section id="Main" class="overlay">
 		<div class="overlay-content">
 			<div class="content">
@@ -58,11 +34,6 @@
 								</a>
 							</li>
 							<li>
-								<a href="#" class="social-icon social-icon-twitter" target="_blank">
-									<i class="fa fa-twitter"></i>
-								</a>
-							</li>
-							<li>
 								<a href="#" class="social-icon social-icon-linkedin" target="_blank">
 									<i class="fa fa-linkedin"></i>
 								</a>
@@ -75,11 +46,6 @@
 							<li>
 								<a href="#" class="social-icon social-icon-youtube" target="_blank">
 									<i class="fa fa-youtube"></i>
-								</a>
-							</li>
-							<li>
-								<a href="#" class="social-icon social-icon-vimeo" target="_blank">
-									<i class="fa fa-vimeo"></i>
 								</a>
 							</li>
 						</ul>
@@ -113,7 +79,7 @@
 											</div><!-- end icon-holder -->
 											<div class="text-box">
 												<div class="title-box">
-													<h3>Why <strong>Light?</strong></h3>
+													<h3>Pourquoi <strong>Emergence</strong></h3>
 												</div>
 												<ul class="list-unstyled text-left">
 													<li>W3C Valid HTML Code</li>
@@ -132,7 +98,7 @@
 											</div><!-- end icon-holder -->
 											<div class="text-box">
 												<div class="title-box">
-													<h3>Our <strong>Story</strong></h3>
+													<h3>Notre <strong>histoire</strong></h3>
 												</div>
 												<p>Sed ut perspiciatis unde omnis iste natus error sit volup tatem therear accu santium doloremque dlaudan tiumee totam rem aperiam eaque ipsa.</p>
 											</div><!-- end text-box -->
@@ -145,7 +111,7 @@
 											</div><!-- end icon-holder -->
 											<div class="text-box">
 												<div class="title-box">
-													<h3>Our <strong>Goal</strong></h3>
+													<h3>Notre <strong>Objectif</strong></h3>
 												</div>
 												<p>Sed ut perspiciatis unde omnis iste natus error sit volup tatem therear accu santium doloremque dlaudan tiumee totam rem aperiam eaque ipsa.</p>
 											</div><!-- end text-box -->
@@ -153,45 +119,6 @@
 									</div><!-- end col -->
 								</div><!-- end row -->
 							</div><!-- end col-sm-12 -->
-							
-							
-							
-							<div class="col-sm-6">
-								<div class="about-item">
-									<h3>100% valid html code</h3>
-									<p>Sed ut perspiciatis unde omnis iste natus error sit volupe tatem there are accusantium doloremquee dlaudan aoe tiume totam rem aperiam.</p>
-								</div>
-							</div>
-							<div class="col-sm-6">
-								<div class="about-item">
-									<h3>100% Responsive Design</h3>
-									<p>Sed ut perspiciatis unde omnis iste natus error sit volupe tatem there are accusantium doloremquee dlaudan aoe tiume totam rem aperiam.</p>
-								</div>
-							</div>
-							<div class="col-sm-6">
-								<div class="about-item">
-									<h3>Eye catching design</h3>
-									<p>Sed ut perspiciatis unde omnis iste natus error sit volupe tatem there are accusantium doloremquee dlaudan aoe tiume totam rem aperiam.</p>
-								</div>
-							</div>
-							<div class="col-sm-6">
-								<div class="about-item">
-									<h3>Smooth transitions</h3>
-									<p>Sed ut perspiciatis unde omnis iste natus error sit volupe tatem there are accusantium doloremquee dlaudan aoe tiume totam rem aperiam.</p>
-								</div>
-							</div>
-							<div class="col-sm-6">
-								<div class="about-item">
-									<h3>PHP working contact form</h3>
-									<p>Sed ut perspiciatis unde omnis iste natus error sit volupe tatem there are accusantium doloremquee dlaudan aoe tiume totam rem aperiam.</p>
-								</div>
-							</div>
-							<div class="col-sm-6">
-								<div class="about-item">
-									<h3>Mailchimp integrated Subscribe Form</h3>
-									<p>Sed ut perspiciatis unde omnis iste natus error sit volupe tatem there are accusantium doloremquee dlaudan aoe tiume totam rem aperiam.</p>
-								</div>
-							</div>
 						</div><!-- end row -->
 					</div>
 					<!-- end About box -->
@@ -305,49 +232,43 @@
 					<div class="row">
 						<div class="col-sm-6">
 							<div class="title-box">
-								<h2>Contact Info</h2>
+								<h2>Informations</h2>
 							</div>
 							<div class="contact-details">
-								<p>If you have any  query, feedback or proposal, we would really like to hear from you. Please contact at any time and we'll get returned to you within 24 hours.</p>
+								<p>Si vous avez des question a propos de notre projet, ou que vous souhaiter nous rejoindre, n'hésitez pas à nous contacter</p>
 								<ul class="list-unstyled">
-									<li><i class="fa fa-fw fa-map-marker"></i>70 Trent Rd, Luton LU3 1TA, UK</li>
-									<li><i class="fa fa-fw fa-phone"></i><a href="tel:000-0000-0000">000 0000 0000</a></li>
-									<li><i class="fa fa-fw fa-envelope-o"></i><a href="mailto:sales@yourwebsite.com">sales@yourwebsite.com</a></li>
-									<li><i class="fa fa-fw fa-globe"></i><a href="#">yourwebsite.com</a></li>
+									<li><i class="fa fa-fw fa-map-marker"></i>Rue de la révolution 18, 1000 Bruxelles</li>
+									<li><i class="fa fa-fw fa-phone"></i><a href="tel:04-721-820">04 721 820</a></li>
+									<li><i class="fa fa-fw fa-envelope-o"></i><a href="mailto:contact@emergence.be">contact@emergence.be</a></li>
 								</ul>
 							</div>
 						</div><!-- End of col-sm-6 -->
 						
 						<div class="col-sm-6">
 							<div class="title-box">
-								<h2>Write Us</h2>
+								<h2>Nous écrire</h2>
 							</div>
 							<!-- Start contact form -->
 							<form id="contactForm" name="contactform" data-toggle="validator" class="contact-form">
 								<div id="msgSubmit" class="hidden"></div>
 								<div class="form-group">
 									<div class="help-block with-errors hidden"></div>
-									<input name="fname" id="fname" placeholder="Your Name*" class="form-control" type="text" required data-error="Please enter Name"> 
+									<input name="fname" id="fname" placeholder="Votre Nom*" class="form-control" type="text" required data-error="Please enter Name"> 
 									<div class="input-group-icon"><i class="fa fa-user"></i></div>
 								</div>
 								<div class="form-group">
 									<div class="help-block with-errors hidden"></div>
-									<input name="email" id="email" placeholder="Your Email*" class="form-control" type="email" required data-error="Please enter Email"> 
+									<input name="email" id="email" placeholder="Votre mail*" class="form-control" type="email" required data-error="Please enter Email"> 
 									<div class="input-group-icon"><i class="fa fa-envelope"></i></div>
 								</div>
 								<div class="form-group">
 									<div class="help-block with-errors hidden"></div>
-									<input name="phone" id="phone" placeholder="Phone*" class="form-control" type="text" required data-error="Please enter Phone">
-									<div class="input-group-icon"><i class="fa fa-book"></i></div> 
-								</div>
-								<div class="form-group">
-									<div class="help-block with-errors hidden"></div>
-									<textarea rows="3" name="message" id="message" placeholder="Write comment here*" class="form-control" required data-error="Please enter message"></textarea>
+									<textarea rows="3" name="message" id="message" placeholder="Votre demande*" class="form-control" required data-error="Please enter message"></textarea>
 									<div class="input-group-icon"><i class="fa fa-pencil"></i></div>
 								</div>
 								<div class="form-group">
-									<button type="submit" id="submit" class="btn btn-custom btn-transparent">Send Message</button>								
-									<span class="sub-text">* Required fields</span>
+									<button type="submit" id="submit" class="btn btn-custom btn-transparent">Envoyer</button>								
+									<span class="sub-text">* Champs obligatoires</span>
 								</div>
 							</form>
 							<!-- end contact form -->
@@ -358,18 +279,3 @@
 		</div><!-- End of overlay-content -->
 	</section>
 	<!-- End of #myContact -->
-
-	<!-- jQuery Library -->
-	<script src="<?= base_url("assets/js/jquery-3.1.1.min.js") ?>"></script>
-	<!-- countdown Js -->	
-	<script src="<?= base_url("assets/js/jquery.plugin.min.js") ?>"></script>
-	<script src="<?= base_url("assets/js/jquery.countdown.js") ?>"></script>
-	<!-- ajaxchimp Js -->
-	<script src="<?= base_url("assets/js/jquery.ajaxchimp.min.js") ?>"></script>
-	<!-- Form validator Js -->
-	<script src="<?= base_url("assets/js/validator.min.js") ?>"></script>
-	<!-- Template main Js -->
-    <script src="<?= base_url("assets/js/main.js") ?>"></script>     
-</body>
-
-</html>

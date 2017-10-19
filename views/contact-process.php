@@ -28,7 +28,7 @@
 	$success = '';
 	if (!$errormsg){
 		//change receipent email and subject here
-		$to = "jerem.negaret@gmail.com";
+		$to = "democontact@mgscoder.com";
 		$subject = "New Light Demo Contact Form Submitted";	
 		//prepare email body
 		$body_message = "";
