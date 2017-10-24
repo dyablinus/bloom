@@ -18,7 +18,7 @@
 					<!-- Buttons start -->
 					<div class="btn-holder">
 						<a href="javascript:void(0)" class="btn btn-custom btn-transparent" onclick="openAboutStyle()">Bloom ?</a>
-						<a href="javascript:void(0)" class="btn btn-custom btn-transparent" onclick="openServicesStyle()">Services</a>
+						<a href="javascript:void(0)" class="btn btn-custom btn-transparent" onclick="openServicesStyle()">Avantages</a>
 						<a href="javascript:void(0)" class="btn btn-custom btn-transparent" onclick="openSubscribeStyle()">Newsletter</a>
 						<a href="javascript:void(0)" class="btn btn-custom btn-transparent" onclick="openContactStyle()">Contact</a>
 					</div>
@@ -83,7 +83,7 @@
 									<div class="col-md-12">
 										<div class="about-wrap">
 											<div class="icon-holder">
-												<i class="fa fa-bullseye"></i>
+												<i class="fa fa-address-book-o"></i>
 											</div><!-- end icon-holder -->
 											<div class="text-box">
 												<div class="title-box">
@@ -102,6 +102,20 @@
                                                     <h3>Jérémy <strong>Ruiz</strong></h3>
                                                 </div>
                                                 <p>Sed ut perspiciatis unde omnis iste natus error sit volup tatem therear accu santium doloremque dlaudan tiumee totam rem aperiam eaque ipsa.</p>
+                                                <div class="row">
+                                                    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                                                        <div class="who-mail-box">
+                                                            <i class="fa fa-envelope"></i>
+                                                            <a href="mailto:jeremyruiz@howbloomerareyou.com">jeremyruiz@bloomer.com</a>
+                                                        </div><!-- end icon-holder -->
+                                                    </div>
+                                                    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                                                        <div class="who-box">
+                                                            <i class="fa fa-phone"></i>
+                                                            <p>0 476 651 820</p>
+                                                        </div><!-- end icon-holder -->
+                                                    </div>
+                                                </div>
                                             </div><!-- end text-box -->
                                         </div><!-- end about-wrap -->
                                     </div><!-- end col -->
@@ -115,6 +129,21 @@
                                                     <h3>Jean <strong>Lejeune</strong></h3>
                                                 </div>
                                                 <p>Pragmatique, efficace et avec une bonne pointe de créativité, Jean aime utiliser les bons mots au bon moment. Il a d’ailleurs explorer sa passion en travaillant comme copywriter dans une agence de communication</p>
+                                                <div class="row">
+                                                    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                                                        <div class="who-mail-box">
+                                                            <i class="fa fa-envelope"></i>
+                                                            <a href="mailto:jeanlejeune@howbloomerareyou.com">jeanlejeune@bloomer.com</a>
+                                                        </div><!-- end icon-holder -->
+                                                    </div>
+                                                    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                                                        <div class="who-box">
+                                                            <i class="fa fa-phone"></i>
+                                                            <p>0 472 788 540</p>
+                                                        </div><!-- end icon-holder -->
+                                                    </div>
+                                                </div>
+                                                
                                             </div><!-- end text-box -->
                                         </div><!-- end about-wrap -->
                                     </div><!-- end col -->
@@ -136,30 +165,50 @@
             <div class="content">
                 <div class="container">
                     <div class="title-box">
-                        <h2>Services</h2>
-                    </div>
-                    
+                        <h2>Avantages</h2>
+                    </div>  
                     <!-- Start Services box -->
                     <div class="Services-box">
                         <div class="row">
-                            <div class="col-sm-4 col-xs-6">
+                            <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4">
                                 <div class="service-item">
-                                    <i class="fa fa-desktop fa-3x"></i>
-                                    <h3>Web Design</h3>
+                                    <i class="fa fa-bullhorn fa-3x"></i>
+                                    <h3>Promouvoir</h3>
                                     <p>Sed ut perspiciatis unde omnis iste natus error sit volupe tatem there are accusantium doloremquee dlaudan aoe tiume totam rem aperiam.</p>
                                 </div>
                             </div>
-                            <div class="col-sm-4 col-xs-6">
+                            <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4">
                                 <div class="service-item">
                                     <i class="fa fa-paint-brush fa-3x"></i>
-                                    <h3>Graphic Design</h3>
+                                    <h3>Simplicité</h3>
                                     <p>Sed ut perspiciatis unde omnis iste natus error sit volupe tatem there are accusantium doloremquee dlaudan aoe tiume totam rem aperiam.</p>
                                 </div>
                             </div>
-                            <div class="col-sm-4 col-xs-6">
+                            <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4">
                                 <div class="service-item">
                                     <i class="fa fa-shopping-cart fa-3x"></i>
-                                    <h3>Flash Design</h3>
+                                    <h3>Vendre</h3>
+                                    <p>Sed ut perspiciatis unde omnis iste natus error sit volupe tatem there are accusantium doloremquee dlaudan aoe tiume totam rem aperiam.</p>
+                                </div>
+                            </div>
+                            <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4">
+                                <div class="service-item">
+                                    <i class="fa fa-search fa-3x"></i>
+                                    <h3>Découvrir</h3>
+                                    <p>Sed ut perspiciatis unde omnis iste natus error sit volupe tatem there are accusantium doloremquee dlaudan aoe tiume totam rem aperiam.</p>
+                                </div>
+                            </div>
+                            <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4">
+                                <div class="service-item">
+                                    <i class="fa fa-balance-scale fa-3x"></i>
+                                    <h3>Flexibilité</h3>
+                                    <p>Sed ut perspiciatis unde omnis iste natus error sit volupe tatem there are accusantium doloremquee dlaudan aoe tiume totam rem aperiam.</p>
+                                </div>
+                            </div>
+                            <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4">
+                                <div class="service-item">
+                                    <i class="fa fa-shopping-cart fa-3x"></i>
+                                    <h3>Acquérir</h3>
                                     <p>Sed ut perspiciatis unde omnis iste natus error sit volupe tatem there are accusantium doloremquee dlaudan aoe tiume totam rem aperiam.</p>
                                 </div>
                             </div>
@@ -220,8 +269,8 @@
                                 <p>Des questions ? Des remarques ? Ou juste envie de devenir un Bloomer ? N’hésitez pas à nous contacter !</p>
                                 <ul class="list-unstyled">
                                     <li><i class="fa fa-fw fa-map-marker"></i>Place de la minoterie 10, 1080 Molenbeek</li>
-                                    <li><i class="fa fa-fw fa-phone"></i><a href="tel:04-721-820">04 721 820</a></li>
-                                    <li><i class="fa fa-fw fa-envelope-o"></i><a href="mailto:contact@howbloomerareyou.com">contact@howbloomerareyou.com</a></li>
+                                    <li><i class="fa fa-fw fa-phone"></i><a href="tel:04-721-820">0 476 651 820</a></li>
+                                    <li><i class="fa fa-fw fa-envelope-o"></i><a href="mailto:contact@howbloomerareyou.com">contact@howbloomerareyou1.com</a></li>
                                 </ul>
                             </div>
                         </div><!-- End of col-sm-6 -->
