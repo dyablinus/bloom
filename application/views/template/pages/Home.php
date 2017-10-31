@@ -17,7 +17,7 @@
 					
 					<!-- Buttons start -->
 					<div class="btn-holder">
-						<a href="javascript:void(0)" class="btn btn-custom btn-transparent" onclick="openAboutStyle()">Bloom ?</a>
+						<a href="javascript:void(0)" class="btn btn-custom btn-transparent" onclick="openAboutStyle()">Notre projet</a>
 						<a href="javascript:void(0)" class="btn btn-custom btn-transparent" onclick="openServicesStyle()">Avantages</a>
 						<a href="javascript:void(0)" class="btn btn-custom btn-transparent" onclick="openSubscribeStyle()">Newsletter</a>
 						<a href="javascript:void(0)" class="btn btn-custom btn-transparent" onclick="openContactStyle()">Contact</a>
@@ -58,7 +58,7 @@
 			<div class="content">
 				<div class="container">
 					<div class="title-box">
-						<h2>Bloom ?</h2>
+						<h2>BlankTitle ?</h2>
 					</div>
 					
 					<!-- Start About box -->
@@ -76,7 +76,7 @@
 												<div class="title-box">
 													<h3>Notre <strong>projet</strong></h3>
 												</div>
-												<p>Sed ut perspiciatis unde omnis iste natus error sit volup tatem therear accu santium doloremque dlaudan tiumee totam rem aperiam eaque ipsa.</p>
+												<p>BlankTitle est un projet d’incubateur d’art. Dans un premier temps, notre plateforme proposera aux jeunes artistes novateurs un espaces de vente et de visibilité afin qu’ils aient plus de temps à consacrer à leur passion. Nous avons ensuite pour ambition de créer des évènements (expositions, rencontres...) ainsi que de mettre à disposition un espace d’atelier.</p>
 											</div><!-- end text-box -->
 										</div><!-- end about-wrap -->
 									</div><!-- end col -->
@@ -96,26 +96,12 @@
 										<div class="about-wrap">
 											<div class="text-box">
 												<div class="img-box">
-													<img src="<?php echo base_url("assets/images/defaultuser.jpg")?>" class="img-responsive img-circle center-block" alt="">
+													<img src="<?php echo base_url("assets/images/jeremy.jpg")?>" class="img-responsive img-circle center-block" alt="">
                                                 </div>
                                                 <div class="name-box text-center">
                                                     <h3>Jérémy <strong>Ruiz</strong></h3>
                                                 </div>
-                                                <p>Sed ut perspiciatis unde omnis iste natus error sit volup tatem therear accu santium doloremque dlaudan tiumee totam rem aperiam eaque ipsa.</p>
-                                                <div class="row">
-                                                    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-                                                        <div class="who-mail-box">
-                                                            <i class="fa fa-envelope"></i>
-                                                            <a href="mailto:jeremyruiz@howbloomerareyou.com">jeremyruiz@bloomer.com</a>
-                                                        </div><!-- end icon-holder -->
-                                                    </div>
-                                                    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-                                                        <div class="who-box">
-                                                            <i class="fa fa-phone"></i>
-                                                            <p>0 476 651 820</p>
-                                                        </div><!-- end icon-holder -->
-                                                    </div>
-                                                </div>
+                                                <p>Après avoir obtenu son bachelor option art à l’ENSA Dijon, Jérémy est venu poursuivre ses études à Bruxelles. Se sentant concerné par les difficultés communes aux jeunes artistes, il décide d’élargir ses compétences en suivant différentes formations. C’est là qu’il imagine une piste de solution en la forme d’un incubateur d’art. </p>
                                             </div><!-- end text-box -->
                                         </div><!-- end about-wrap -->
                                     </div><!-- end col -->
@@ -123,27 +109,12 @@
                                         <div class="about-wrap">
                                             <div class="text-box">
                                                 <div class="img-box">
-                                                    <img src="<?php echo base_url("assets/images/defaultuser.jpg")?>" class="img-responsive img-circle center-block" alt="">
+                                                    <img src="<?php echo base_url("assets/images/jean.jpg")?>" class="img-responsive img-circle center-block" alt="">
                                                 </div>
                                                 <div class="name-box text-center">
                                                     <h3>Jean <strong>Lejeune</strong></h3>
                                                 </div>
-                                                <p>Pragmatique, efficace et avec une bonne pointe de créativité, Jean aime utiliser les bons mots au bon moment. Il a d’ailleurs explorer sa passion en travaillant comme copywriter dans une agence de communication</p>
-                                                <div class="row">
-                                                    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-                                                        <div class="who-mail-box">
-                                                            <i class="fa fa-envelope"></i>
-                                                            <a href="mailto:jeanlejeune@howbloomerareyou.com">jeanlejeune@bloomer.com</a>
-                                                        </div><!-- end icon-holder -->
-                                                    </div>
-                                                    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-                                                        <div class="who-box">
-                                                            <i class="fa fa-phone"></i>
-                                                            <p>0 472 788 540</p>
-                                                        </div><!-- end icon-holder -->
-                                                    </div>
-                                                </div>
-                                                
+                                                <p>Pragmatique, efficace et avec une bonne pointe de créativité, il aime utiliser les bons mots au bon moment. Il a d’ailleurs explorer cette passion en travaillant comme copywriter dans un agence après avoir terminé ses études en communication. Désireux d’élargir ses horizons, il s’associe avec Jérémy Ruiz pour donner vie à un projet excitant et NÉCESSAIRE. </p>                                             
                                             </div><!-- end text-box -->
                                         </div><!-- end about-wrap -->
                                     </div><!-- end col -->
@@ -165,51 +136,63 @@
             <div class="content">
                 <div class="container">
                     <div class="title-box">
-                        <h2>Avantages</h2>
+                        <h2>Artistes</h2>
                     </div>  
                     <!-- Start Services box -->
                     <div class="Services-box">
                         <div class="row">
                             <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4">
                                 <div class="service-item">
-                                    <i class="fa fa-bullhorn fa-3x"></i>
-                                    <h3>Promouvoir</h3>
-                                    <p>Sed ut perspiciatis unde omnis iste natus error sit volupe tatem there are accusantium doloremquee dlaudan aoe tiume totam rem aperiam.</p>
-                                </div>
-                            </div>
-                            <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4">
-                                <div class="service-item">
-                                    <i class="fa fa-paint-brush fa-3x"></i>
+                                    <i class="fa fa-paint-brush fa-3x"></i>                                                                 
                                     <h3>Simplicité</h3>
-                                    <p>Sed ut perspiciatis unde omnis iste natus error sit volupe tatem there are accusantium doloremquee dlaudan aoe tiume totam rem aperiam.</p>
+                                    <p>Ne vous souciez plus de la promotion et concentrez vous sur votre passion, on s’occupe du reste !</p>
                                 </div>
                             </div>
                             <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4">
                                 <div class="service-item">
-                                    <i class="fa fa-shopping-cart fa-3x"></i>
-                                    <h3>Vendre</h3>
-                                    <p>Sed ut perspiciatis unde omnis iste natus error sit volupe tatem there are accusantium doloremquee dlaudan aoe tiume totam rem aperiam.</p>
+                                    <i class="fa fa-bullhorn fa-3x"></i>                                
+                                    <h3>Visibilité</h3>
+                                    <p>Grâce à l’incubateur, vous bénéficierez d’une visibilité accrue et gratuite pour les oeuvres et évènements de votre choix.</p>
                                 </div>
                             </div>
-                            <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4">
-                                <div class="service-item">
+                            <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4 margin-agencement">
+                                <div class="service-item ajust">
+                                    <i class="fa fa-usd fa-3x"></i>
+                                    <h3>Gratification</h3>
+                                    <p>Faites vous connaitre avec vos projets existants et financez vos projets à venir.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="title-box">
+                        <h2>Acheteurs</h2>
+                    </div>
+
+                    <div class="Services-box">
+                        <div class="row">                        
+                            <!-- Partie acquereur -->
+                            <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4 ">
+                                <div class="service-item ajust">
                                     <i class="fa fa-search fa-3x"></i>
                                     <h3>Découvrir</h3>
-                                    <p>Sed ut perspiciatis unde omnis iste natus error sit volupe tatem there are accusantium doloremquee dlaudan aoe tiume totam rem aperiam.</p>
+                                    <p>Osez dénicher
+                                        les artistes de demain dans une galerie complète et mise-à-jour régulièrement.
+                                    </p>
                                 </div>
                             </div>
                             <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4">
                                 <div class="service-item">
                                     <i class="fa fa-balance-scale fa-3x"></i>
                                     <h3>Flexibilité</h3>
-                                    <p>Sed ut perspiciatis unde omnis iste natus error sit volupe tatem there are accusantium doloremquee dlaudan aoe tiume totam rem aperiam.</p>
+                                    <p>Que vous soyez un humble amateur d’art ou un initié, vous trouverez une option qui vous conviendra</p>
                                 </div>
                             </div>
                             <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4">
                                 <div class="service-item">
                                     <i class="fa fa-shopping-cart fa-3x"></i>
                                     <h3>Acquérir</h3>
-                                    <p>Sed ut perspiciatis unde omnis iste natus error sit volupe tatem there are accusantium doloremquee dlaudan aoe tiume totam rem aperiam.</p>
+                                    <p>En soutenant un artiste émergent, vous investissez dans le talent des futurs acteurs de la scène contemporaine. </p>
                                 </div>
                             </div>
                         </div><!-- end row -->
@@ -236,14 +219,39 @@
                             Bien entendu, nous vous garantissons que nous ne partagerons jamais votre adresse et ne vous enverrons jamais de spam. Nos communications sont occasionnelles et toujours pertinentes. </p>
                             
                             <!-- Start mailchimp form -->
-                            <div class="mc-form-holder">
+                             <!-- <div class="mc-form-holder">
                                 <form id="mc-form">
                                     <input id="mc-email" class="form-control" type="email" placeholder="email address">
                                     <button class="btn" type="submit"><i class="fa fa-paper-plane"></i></button>
                                     <label for="mc-email"></label>
                                 </form>
-                            </div>
-                            <!-- end mailchimp form -->                 
+                            </div> -->
+                            <!-- $('#mc-form').ajaxChimp({
+                                url:https://blanktitle.us17.list-manage.com/subscribe/post?u=43d3705b55096c83e92dd5165&amp;id=e11f630225
+                            });  -->
+
+                            <!-- end mailchimp form -->      
+ 
+                        <!-- Begin MailChimp Signup Form -->
+                        <div id="mc_embed_signup mc-form-holder">
+                            <form action="https://blanktitle.us17.list-manage.com/subscribe/post?u=43d3705b55096c83e92dd5165&amp;id=e11f630225" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                                <div id="mc_embed_signup_scroll">
+                                    <div class="mc-field-group">
+                                        <input type="email" value="" name="EMAIL" class="required email form-control" placeholder="Your email" id="mce-EMAIL">
+                                    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_43d3705b55096c83e92dd5165_e11f630225" tabindex="-1" value=""></div>
+                                    <div class="clear"><button type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button btn"><i class="fa fa-paper-plane"></i></button></div>
+                                    </div>
+                                     <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                                    <div id="mce-responses" class="clear">
+                                        <div class="response" id="mce-error-response" style="display:none"></div>
+                                        <div class="response" id="mce-success-response" style="display:none"></div>
+                                    </div>   
+                                </div>
+                            </form>
+                        </div>
+                        <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+                        <!--End mc_embed_signup-->
+           
                         </div><!-- End of col -->
                     </div><!-- End of row -->
                 </div><!-- End of container -->
@@ -266,32 +274,38 @@
                         </div>
                         <div class="col-sm-6">
                             <div class="contact-details">
-                                <p>Des questions ? Des remarques ? Ou juste envie de devenir un Bloomer ? N’hésitez pas à nous contacter !</p>
+                                <p>Des questions ? Des remarques ? Ou juste envie de nous rejoindre ? N’hésitez pas à nous contacter !</p>
                                 <ul class="list-unstyled">
                                     <li><i class="fa fa-fw fa-map-marker"></i>Place de la minoterie 10, 1080 Molenbeek</li>
                                     <li><i class="fa fa-fw fa-phone"></i><a href="tel:04-721-820">0 476 651 820</a></li>
-                                    <li><i class="fa fa-fw fa-envelope-o"></i><a href="mailto:contact@howbloomerareyou.com">contact@howbloomerareyou1.com</a></li>
+                                    <li><i class="fa fa-fw fa-envelope-o"></i><a href="mailto:contact@blanktitle.be">contact@blanktitle.be</a></li>
                                 </ul>
                             </div>
                         </div><!-- End of col-sm-6 -->
                         
                         <div class="col-sm-6">
                             <!-- Start contact form -->
-                            <form id="contactForm" name="contactform" data-toggle="validator" class="contact-form">
+                                        <?php
+                                            $prenom = isset($_GET['n'])?$_GET['n']:"";
+                                            $email = isset($_GET['email'])?$_GET['email']:"";
+                                            $message = isset($_GET['msg'])?$_GET['msg']:"";
+
+                                        ?>
+                            <form action="<?php echo base_url('/home/contact_post'); ?>" id="contactForm" name="contactform" data-toggle="validator" class="contact-form" method="POST">
                                 <div id="msgSubmit" class="hidden"></div>
                                 <div class="form-group">
                                     <div class="help-block with-errors hidden"></div>
-                                    <input name="fname" id="fname" placeholder="Votre Nom*" class="form-control" type="text" required data-error="Please enter Name"> 
+                                    <input name="fname" id="fname" placeholder="Votre Nom*" class="form-control" type="text" required data-error="Please enter Name" value="<?php echo $prenom ?>"> 
                                     <div class="input-group-icon"><i class="fa fa-user"></i></div>
                                 </div>
                                 <div class="form-group">
                                     <div class="help-block with-errors hidden"></div>
-                                    <input name="email" id="email" placeholder="Votre mail*" class="form-control" type="email" required data-error="Please enter Email"> 
+                                    <input name="email" id="email" placeholder="Votre email*" class="form-control" type="email" required data-error="Please enter Email" value="<?php echo $email ?>"> 
                                     <div class="input-group-icon"><i class="fa fa-envelope"></i></div>
                                 </div>
                                 <div class="form-group">
                                     <div class="help-block with-errors hidden"></div>
-                                    <textarea rows="3" name="message" id="message" placeholder="Votre demande*" class="form-control" required data-error="Please enter message"></textarea>
+                                    <textarea rows="3" name="message" id="message" placeholder="Votre demande*" class="form-control" required data-error="Please enter message" value="<?php echo $message ?>"></textarea>
                                     <div class="input-group-icon"><i class="fa fa-pencil"></i></div>
                                 </div>
                                 <div class="form-group">

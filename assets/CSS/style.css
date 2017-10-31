@@ -314,6 +314,10 @@ p {
 	6. Services Section
 |----------------------------------------------------------------------------
 */
+
+.margin-agencement {
+    margin-bottom: 3%;
+}
 #Services.overlay.show {
 	-webkit-transform: translateY(0);
     -moz-transform: translateY(0);
@@ -394,6 +398,9 @@ p {
 .service-item p:last-child {
     margin: 0;
 }
+.ajust {
+    padding-bottom: 16%;
+}
 
 /*
 |----------------------------------------------------------------------------
@@ -427,16 +434,16 @@ p {
 .mc-form-holder {
     margin: 30px auto 50px;
 }
-.mc-form-holder > p {
+.mc-form-holder  p {
 	font-size: 16px;
 	margin-bottom: 20px;
 }
-.mc-form-holder > #mc-form {
+.mc-form-holder  #mc-embedded-subscribe-form {
     margin: 0 auto;
     max-width: 360px;
 	position: relative;
 }
-#mc-form .form-control {
+#mc-embedded-subscribe-form .form-control {
     background-color: transparent;
     border: 1px solid #d96b68;    
     border-bottom-left-radius: 4px;
@@ -448,15 +455,15 @@ p {
     height: 34px;
     padding: 3px 10px 5px;
     vertical-align: top;
-	width: 79%;
+	width: 50%;
 }
-#mc-form .form-control:focus {
+#mc-embedded-subscribe-form .form-control:focus {
     border-color: #3e3e3e;
     -webkit-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.075) inset, 0 0 6px 0 #d96b68;
     box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.075) inset, 0 0 6px 0 #d96b68;
     outline: 0 none;
 }
-#mc-form .btn {
+#mc-embedded-subscribe-form .btn {
     background-color: #d96b68;
     border: medium none;
     border-radius: 0 4px 4px 0;
@@ -474,12 +481,13 @@ p {
     -ms-transition: all 0.23s ease-in-out 0s;
     -o-transition: all 0.23s ease-in-out 0s;
     transition: all 0.23s ease-in-out 0s;
-    width: 20%;
+    width: 300%;
+    display: inline-block;
 }
-#mc-form .btn:hover {
+#mc-embedded-subscribe-form .btn:hover {
     opacity: 0.9;
 }
-#mc-form label {
+#mc-embedded-subscribe-form label {
     font-size: 16px;
     font-weight: normal;
     left: 0;
@@ -487,10 +495,17 @@ p {
     top: 35px;
 	line-height: 1.2;
 }
-#mc-form .error {
+.clear {
+    display: inline-block;
+    
+}
+#mc_embed_signup_scroll {
+    margin-left: 23%;
+}
+#mc-embedded-subscribe-form .error {
     color: #ce0606;
 }
-#mc-form .valid {
+#mc-embedded-subscribe-form .valid {
     color: #37a000;
 }
 

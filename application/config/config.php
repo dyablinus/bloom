@@ -24,6 +24,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 |
 */
 $config['base_url'] = 'http://artproject.dev';
+// $config['base_url'] = 'http://blanktitle.be';
 
 /*
 |--------------------------------------------------------------------------

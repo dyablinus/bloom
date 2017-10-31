@@ -5,7 +5,7 @@
 	<meta content="IE=edge" http-equiv="X-UA-Compatible">
 	<meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1" />
 	
-	<title>Emergence</title>
+	<title>BlankTilte</title>
 	<!-- set your website meta description and keywords -->
 	<meta name="description" content="Add your website description here">
 	<meta name="keywords" content="Add your website keywords here">
@@ -26,7 +26,15 @@
 
 <?php  $this->load->view('template/pages/home'); ?> 
 
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-108825258-1"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
 
+    gtag('config', 'UA-108825258-1');
+    </script>
 
 
   
