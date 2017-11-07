@@ -2,10 +2,11 @@
 <html lang="en-US">
 <head>
 	<meta charset="utf-8">
-	<meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta name="google-site-verification" content="yLlx45bmY7BkID24kuXq4A0a1xyA28dHNkmwAvZtGSo" />
 	<meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1" />
 	
-	<title>BlankTilte</title>
+	<title>BlankTitle</title>
 	<!-- set your website meta description and keywords -->
 	<meta name="description" content="Add your website description here">
 	<meta name="keywords" content="Add your website keywords here">

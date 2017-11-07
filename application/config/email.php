@@ -2,7 +2,7 @@
  
  $config = array(
   'protocol' => 'smtp',
-  'smtp_host' => 'ns0.ovh.net',
+  'smtp_host' => 'ssl0.ovh.net',
   'smtp_port' => 587,
   'smtp_user' => 'contact@blanktilte.be',
   'smtp_pass' => 'Kom-jess-1080',

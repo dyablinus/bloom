@@ -1,102 +1,110 @@
-	<section id="Main" class="overlay">
-		<div class="overlay-content">
-			<div class="content">
-				<div class="container">	
-					<!-- coming-soon header text start -->
-					<div class="coming-soon-text">
-						<h4>We are</h4>
-						<h1>coming soon</h1>
-					</div>
-					<!-- coming-soon header text end -->
-					
-					<!-- countdown Box start -->
-					<!-- <div class="coming-soon-count">
-						<div id="defaultCountdown"></div>
-					</div> -->
-					<!-- countdown Box end -->
-					
-					<!-- Buttons start -->
-					<div class="btn-holder">
-						<a href="javascript:void(0)" class="btn btn-custom btn-transparent" onclick="openAboutStyle()">Notre projet</a>
-						<a href="javascript:void(0)" class="btn btn-custom btn-transparent" onclick="openServicesStyle()">Avantages</a>
-						<a href="javascript:void(0)" class="btn btn-custom btn-transparent" onclick="openSubscribeStyle()">Newsletter</a>
-						<a href="javascript:void(0)" class="btn btn-custom btn-transparent" onclick="openContactStyle()">Contact</a>
-					</div>
-					<!-- Buttons end -->
-					
-					<!-- Start Social media -->
-					<div class="social-holder">
-						<p>Suivez nous!</p>
-						<ul class="list-inline list-social clearfix">
-							<li>
-								<a href="#" class="social-icon social-icon-facebook" target="_blank">
-									<i class="fa fa-facebook"></i>
-								</a>
-							</li>
-							<li>
-								<a href="#" class="social-icon social-icon-pinterest" target="_blank">
-									<i class="fa fa-pinterest"></i>
-								</a>
-							</li>
-							<li>
-								<a href="#" class="social-icon social-icon-youtube" target="_blank">
-									<i class="fa fa-youtube"></i>
-								</a>
-							</li>
-						</ul>
-					</div>
-					<!-- End Social media -->
-				</div><!-- End container -->
-			</div>
-		</div><!-- End of overlay-content -->
-	</section><!-- End of #Main -->
-	
-	<!-- Start About Section -->
-	<section id="About" class="overlay">
-		<a href="javascript:void(0)" class="closebtn" onclick="closeAboutStyle()">&times;</a>
-		<div class="overlay-content">
-			<div class="content">
-				<div class="container">
-					<div class="title-box">
-						<h2>BlankTitle ?</h2>
-					</div>
-					
-					<!-- Start About box -->
-					<div class="about-box">
-						<div class="row">
-							
-							<div class="col-sm-12">
-								<div class="row">
-									<div class="col-md-12">
-										<div class="about-wrap">
-											<div class="icon-holder">
-												<i class="fa fa-book"></i>
-											</div><!-- end icon-holder -->
-											<div class="text-box">
-												<div class="title-box">
-													<h3>Notre <strong>projet</strong></h3>
-												</div>
-												<p>BlankTitle est un projet d’incubateur d’art. Dans un premier temps, notre plateforme proposera aux jeunes artistes novateurs un espaces de vente et de visibilité afin qu’ils aient plus de temps à consacrer à leur passion. Nous avons ensuite pour ambition de créer des évènements (expositions, rencontres...) ainsi que de mettre à disposition un espace d’atelier.</p>
-											</div><!-- end text-box -->
-										</div><!-- end about-wrap -->
-									</div><!-- end col -->
-									<div class="col-md-12">
-										<div class="about-wrap">
-											<div class="icon-holder">
-												<i class="fa fa-address-book-o"></i>
-											</div><!-- end icon-holder -->
-											<div class="text-box">
-												<div class="title-box">
-													<h3>Qui <strong>Sommes-nous</strong></h3>
-												</div>
-											</div><!-- end text-box -->
-										</div><!-- end about-wrap -->
-									</div><!-- end col -->
-									<div class="col-md-6">
-										<div class="about-wrap">
-											<div class="text-box">
-												<div class="img-box">
-													<img src="<?php echo base_url("assets/images/jeremy.jpg")?>" class="img-responsive img-circle center-block" alt="">
+    
+    <section id="Main" class="overlay">
+        <div class="overlay-content">
+            <div id="menu_langue" class="col-xs-3 col-xs-offset-9">
+                <div class="lang_en lang">
+                    <a class="btn_nav_lang_en" href=<?php echo base_url("/langchange/change/en") ?>>EN</a>
+                </div>
+            </div>
+            <div class="content">
+                <div class="container"> 
+                    <!-- coming-soon header text start -->
+                    <div class="coming-soon-text">
+                        <h4>We are</h4>
+                        <h1>coming soon</h1>
+                    </div>
+                    <!-- coming-soon header text end -->
+                    
+                    <!-- countdown Box start -->
+                    <!-- <div class="coming-soon-count">
+                        <div id="defaultCountdown"></div>
+                    </div> -->
+                    <!-- countdown Box end -->
+
+                    <!-- Buttons start -->
+                    <div class="btn-holder">
+                        <a href="javascript:void(0)" class="btn btn-custom btn-transparent" onclick="openAboutStyle()">Notre projet</a>
+                        <a href="javascript:void(0)" class="btn btn-custom btn-transparent" onclick="openServicesStyle()">Avantages</a>
+                        <a href="javascript:void(0)" class="btn btn-custom btn-transparent" onclick="openSubscribeStyle()">Newsletter</a>
+                        <a href="javascript:void(0)" class="btn btn-custom btn-transparent" onclick="openContactStyle()">Contact</a>
+                    </div>
+                    <!-- Buttons end -->
+                    
+                    <!-- Start Social media -->
+
+                    <!-- <div class="social-holder">
+                        <p>Suivez nous!</p>
+                        <ul class="list-inline list-social clearfix">
+                            <li>
+                                <a href="https://www.facebook.com/BlankTitle-356584598101861/?modal=admin_todo_tour" class="social-icon social-icon-facebook" target="_blank">
+                                    <i class="fa fa-facebook"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.pinterest.fr/blanktitle/" class="social-icon social-icon-pinterest" target="_blank">
+                                    <i class="fa fa-pinterest"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.youtube.com/channel/UCWAs008Lh7f3cZJ8emxR-0Q?disable_polymer=true" class="social-icon social-icon-youtube" target="_blank">
+                                    <i class="fa fa-youtube"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div> -->
+
+                    <!-- End Social media -->
+                </div><!-- End container -->
+            </div>
+        </div><!-- End of overlay-content -->
+    </section><!-- End of #Main -->
+    
+    <!-- Start About Section -->
+    <section id="About" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeAboutStyle()">&times;</a>
+        <div class="overlay-content">
+            <div class="content">
+                <div class="container">
+                    <div class="title-box">
+                        <h2>BlankTitle ?</h2>
+                    </div>
+                    
+                    <!-- Start About box -->
+                    <div class="about-box">
+                        <div class="row">
+                            
+                            <div class="col-sm-12">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="about-wrap">
+                                            <div class="icon-holder">
+                                                <i class="fa fa-book"></i>
+                                            </div><!-- end icon-holder -->
+                                            <div class="text-box">
+                                                <div class="title-box">
+                                                    <h3>Notre <strong>projet</strong></h3>
+                                                </div>
+                                                <p>BlankTitle est un projet d’incubateur d’art. Dans un premier temps, notre plateforme proposera aux jeunes artistes novateurs un espace de vente et de visibilité afin qu’ils aient plus de temps à consacrer à leur passion. Nous avons ensuite pour ambition de créer des événements (expositions, rencontres...) ainsi que de mettre à disposition un espace d’atelier.</p>
+                                            </div><!-- end text-box -->
+                                        </div><!-- end about-wrap -->
+                                    </div><!-- end col -->
+                                    <div class="col-md-12">
+                                        <div class="about-wrap">
+                                            <div class="icon-holder">
+                                                <i class="fa fa-address-book-o"></i>
+                                            </div><!-- end icon-holder -->
+                                            <div class="text-box">
+                                                <div class="title-box">
+                                                    <h3>Qui <strong>Sommes-nous</strong></h3>
+                                                </div>
+                                            </div><!-- end text-box -->
+                                        </div><!-- end about-wrap -->
+                                    </div><!-- end col -->
+                                    <div class="col-md-6">
+                                        <div class="about-wrap">
+                                            <div class="text-box">
+                                                <div class="img-box">
+                                                    <img src="<?php echo base_url("assets/images/jeremy.jpg")?>" class="img-responsive img-circle center-block" alt="">
                                                 </div>
                                                 <div class="name-box text-center">
                                                     <h3>Jérémy <strong>Ruiz</strong></h3>
@@ -114,7 +122,7 @@
                                                 <div class="name-box text-center">
                                                     <h3>Jean <strong>Lejeune</strong></h3>
                                                 </div>
-                                                <p>Pragmatique, efficace et avec une bonne pointe de créativité, il aime utiliser les bons mots au bon moment. Il a d’ailleurs explorer cette passion en travaillant comme copywriter dans un agence après avoir terminé ses études en communication. Désireux d’élargir ses horizons, il s’associe avec Jérémy Ruiz pour donner vie à un projet excitant et NÉCESSAIRE. </p>                                             
+                                                <p>Pragmatique, efficace et avec une bonne pointe de créativité, il aime utiliser les bons mots au bon moment. Il a d’ailleurs exploré cette passion en travaillant comme copywriter dans une agence après avoir terminé ses études en communication. Désireux d’élargir ses horizons, il s’associe avec Jérémy Ruiz pour donner vie à un projet excitant et nécessaire. </p>                                             
                                             </div><!-- end text-box -->
                                         </div><!-- end about-wrap -->
                                     </div><!-- end col -->
@@ -285,32 +293,27 @@
                         
                         <div class="col-sm-6">
                             <!-- Start contact form -->
-                                        <?php
-                                            $prenom = isset($_GET['n'])?$_GET['n']:"";
-                                            $email = isset($_GET['email'])?$_GET['email']:"";
-                                            $message = isset($_GET['msg'])?$_GET['msg']:"";
 
-                                        ?>
-                            <form action="<?php echo base_url('/home/contact_post'); ?>" id="contactForm" name="contactform" data-toggle="validator" class="contact-form" method="POST">
-                                <div id="msgSubmit" class="hidden"></div>
+                            <form id="contactForm" name="contactform" data-toggle="validator" class="contact-form">
+                                <div id="msgSubmit" class="hidden btn-success"></div>
                                 <div class="form-group">
                                     <div class="help-block with-errors hidden"></div>
-                                    <input name="fname" id="fname" placeholder="Votre Nom*" class="form-control" type="text" required data-error="Please enter Name" value="<?php echo $prenom ?>"> 
+                                    <input name="fname" id="fname" placeholder="Your Name*" class="form-control" type="text" required data-error="Please enter Name"> 
                                     <div class="input-group-icon"><i class="fa fa-user"></i></div>
                                 </div>
                                 <div class="form-group">
                                     <div class="help-block with-errors hidden"></div>
-                                    <input name="email" id="email" placeholder="Votre email*" class="form-control" type="email" required data-error="Please enter Email" value="<?php echo $email ?>"> 
+                                    <input name="email" id="email" placeholder="Your Email*" class="form-control" type="email" required data-error="Please enter Email"> 
                                     <div class="input-group-icon"><i class="fa fa-envelope"></i></div>
                                 </div>
                                 <div class="form-group">
                                     <div class="help-block with-errors hidden"></div>
-                                    <textarea rows="3" name="message" id="message" placeholder="Votre demande*" class="form-control" required data-error="Please enter message" value="<?php echo $message ?>"></textarea>
+                                    <textarea rows="3" name="message" id="message" placeholder="Write comment here*" class="form-control" required data-error="Please enter message"></textarea>
                                     <div class="input-group-icon"><i class="fa fa-pencil"></i></div>
                                 </div>
                                 <div class="form-group">
-                                    <button type="submit" id="submit" class="btn btn-custom btn-transparent">Envoyer</button>                               
-                                    <span class="sub-text">* Champs obligatoires</span>
+                                    <button type="submit" id="submit" class="btn btn-custom btn-transparent">Send Message</button>                              
+                                    <span class="sub-text">* Required fields</span>
                                 </div>
                             </form>
                             <!-- end contact form -->
