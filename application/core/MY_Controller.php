@@ -13,6 +13,12 @@ class MY_Controller extends CI_Controller
         $this->set_lang();
     }
 
+    public function renderblog($view, $template = 'template/base/blog/index_blog')
+    {
+        $this->data["view_content"] = $this->load->view($view, $this->data, true);
+        $this->load->view($template, $this->data);
+    }
+
     public function render($view, $template = 'template/base/index')
     {
         $this->data["view_content"] = $this->load->view($view, $this->data, true);
