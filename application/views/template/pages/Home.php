@@ -3,6 +3,7 @@
         <div class="overlay-content">
             <div id="menu_langue" class="col-xs-3 col-xs-offset-9">
                 <div class="lang_en lang">
+                    <a class="btn_nav_lang_en" href=<?php echo base_url("/langchange/change/fr") ?>>FR</a>
                     <a class="btn_nav_lang_en" href=<?php echo base_url("/langchange/change/en") ?>>EN</a>
                 </div>
             </div>
@@ -23,10 +24,10 @@
 
                     <!-- Buttons start -->
                     <div class="btn-holder">
-                        <a href="javascript:void(0)" class="btn btn-custom btn-transparent" onclick="openAboutStyle()">Notre projet</a>
-                        <a href="javascript:void(0)" class="btn btn-custom btn-transparent" onclick="openServicesStyle()">Avantages</a>
-                        <a href="javascript:void(0)" class="btn btn-custom btn-transparent" onclick="openSubscribeStyle()">Newsletter</a>
-                        <a href="javascript:void(0)" class="btn btn-custom btn-transparent" onclick="openContactStyle()">Contact</a>
+                        <a href="javascript:void(0)" class="btn btn-custom btn-transparent" onclick="openAboutStyle()"><?php echo lang('notreprojet');?></a>
+                        <a href="javascript:void(0)" class="btn btn-custom btn-transparent" onclick="openServicesStyle()"><?php echo lang('avantages');?></a>
+                        <a href="javascript:void(0)" class="btn btn-custom btn-transparent" onclick="openSubscribeStyle()"><?php echo lang('newsletter');?></a>
+                        <a href="javascript:void(0)" class="btn btn-custom btn-transparent" onclick="openContactStyle()"><?php echo lang('contact');?></a>
                     </div>
                     <!-- Buttons end -->
                     
@@ -82,9 +83,9 @@
                                             </div><!-- end icon-holder -->
                                             <div class="text-box">
                                                 <div class="title-box">
-                                                    <h3>Notre <strong>projet</strong></h3>
+                                                    <h3><?php echo lang('notre');?><strong><?php echo lang('projet');?></strong></h3>
                                                 </div>
-                                                <p>BlankTitle est un projet d’incubateur d’art. Dans un premier temps, notre plateforme proposera aux jeunes artistes novateurs un espace de vente et de visibilité afin qu’ils aient plus de temps à consacrer à leur passion. Nous avons ensuite pour ambition de créer des événements (expositions, rencontres...) ainsi que de mettre à disposition un espace d’atelier.</p>
+                                                <p><?php echo lang('textprojet');?></p>
                                             </div><!-- end text-box -->
                                         </div><!-- end about-wrap -->
                                     </div><!-- end col -->
@@ -95,7 +96,7 @@
                                             </div><!-- end icon-holder -->
                                             <div class="text-box">
                                                 <div class="title-box">
-                                                    <h3>Qui <strong>Sommes-nous</strong></h3>
+                                                    <h3><?php echo lang('qui');?><strong><?php echo lang('sommes');?></strong></h3>
                                                 </div>
                                             </div><!-- end text-box -->
                                         </div><!-- end about-wrap -->
@@ -109,7 +110,7 @@
                                                 <div class="name-box text-center">
                                                     <h3>Jérémy <strong>Ruiz</strong></h3>
                                                 </div>
-                                                <p>Après avoir obtenu son bachelor option art à l’ENSA Dijon, Jérémy est venu poursuivre ses études à Bruxelles. Se sentant concerné par les difficultés communes aux jeunes artistes, il décide d’élargir ses compétences en suivant différentes formations. C’est là qu’il imagine une piste de solution en la forme d’un incubateur d’art. </p>
+                                                <p><?php echo lang('textjerem');?></p>
                                             </div><!-- end text-box -->
                                         </div><!-- end about-wrap -->
                                     </div><!-- end col -->
@@ -122,7 +123,7 @@
                                                 <div class="name-box text-center">
                                                     <h3>Jean <strong>Lejeune</strong></h3>
                                                 </div>
-                                                <p>Pragmatique, efficace et avec une bonne pointe de créativité, il aime utiliser les bons mots au bon moment. Il a d’ailleurs exploré cette passion en travaillant comme copywriter dans une agence après avoir terminé ses études en communication. Désireux d’élargir ses horizons, il s’associe avec Jérémy Ruiz pour donner vie à un projet excitant et nécessaire. </p>                                             
+                                                <p><?php echo lang('textjean');?> </p>                                             
                                             </div><!-- end text-box -->
                                         </div><!-- end about-wrap -->
                                     </div><!-- end col -->
@@ -144,7 +145,7 @@
             <div class="content">
                 <div class="container">
                     <div class="title-box">
-                        <h2>Artistes</h2>
+                        <h2><?php echo lang('artiste');?></h2>
                     </div>  
                     <!-- Start Services box -->
                     <div class="Services-box">
@@ -152,29 +153,29 @@
                             <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4">
                                 <div class="service-item">
                                     <i class="fa fa-paint-brush fa-3x"></i>                                                                 
-                                    <h3>Simplicité</h3>
-                                    <p>Ne vous souciez plus de la promotion et concentrez vous sur votre passion, on s’occupe du reste !</p>
+                                    <h3><?php echo lang('titreleft');?></h3>
+                                    <p><?php echo lang('textleft');?></p>
                                 </div>
                             </div>
                             <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4">
                                 <div class="service-item">
                                     <i class="fa fa-bullhorn fa-3x"></i>                                
-                                    <h3>Visibilité</h3>
-                                    <p>Grâce à l’incubateur, vous bénéficierez d’une visibilité accrue et gratuite pour les oeuvres et évènements de votre choix.</p>
+                                    <h3><?php echo lang('titremiddel');?></h3>
+                                    <p><?php echo lang('textmiddel');?></p>
                                 </div>
                             </div>
                             <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4 margin-agencement">
                                 <div class="service-item ajust">
                                     <i class="fa fa-usd fa-3x"></i>
-                                    <h3>Gratification</h3>
-                                    <p>Faites vous connaitre avec vos projets existants et financez vos projets à venir.</p>
+                                    <h3><?php echo lang('titreright');?></h3>
+                                    <p><?php echo lang('textright');?></p>
                                 </div>
                             </div>
                         </div>
                     </div>
                     
                     <div class="title-box">
-                        <h2>Acheteurs</h2>
+                        <h2><?php echo lang('acheteurs');?></h2>
                     </div>
 
                     <div class="Services-box">
@@ -183,24 +184,22 @@
                             <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4 ">
                                 <div class="service-item ajust">
                                     <i class="fa fa-search fa-3x"></i>
-                                    <h3>Découvrir</h3>
-                                    <p>Osez dénicher
-                                        les artistes de demain dans une galerie complète et mise-à-jour régulièrement.
-                                    </p>
+                                    <h3><?php echo lang('titreleftbuy');?></h3>
+                                    <p><?php echo lang('textleftbuy');?></p>
                                 </div>
                             </div>
                             <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4">
                                 <div class="service-item">
                                     <i class="fa fa-balance-scale fa-3x"></i>
-                                    <h3>Flexibilité</h3>
-                                    <p>Que vous soyez un humble amateur d’art ou un initié, vous trouverez une option qui vous conviendra</p>
+                                    <h3><?php echo lang('titremiddelbuy');?></h3>
+                                    <p><?php echo lang('textmiddelbuy');?></p>
                                 </div>
                             </div>
                             <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4">
                                 <div class="service-item">
                                     <i class="fa fa-shopping-cart fa-3x"></i>
-                                    <h3>Acquérir</h3>
-                                    <p>En soutenant un artiste émergent, vous investissez dans le talent des futurs acteurs de la scène contemporaine. </p>
+                                    <h3><?php echo lang('titrerightbuy');?></h3>
+                                    <p><?php echo lang('textrightbuy');?></p>
                                 </div>
                             </div>
                         </div><!-- end row -->
@@ -223,8 +222,7 @@
                             <div class="title-box">
                                 <h2>Newsletter</h2>
                             </div>
-                            <p>N’hésitez pas à nous laisser votre adresse mail si vous voulez être certain de ne pas rater le lancement de notre site internet ! Nous vous tiendrons au courant de nos dernières actualités grâce à notre newsletter.
-                            Bien entendu, nous vous garantissons que nous ne partagerons jamais votre adresse et ne vous enverrons jamais de spam. Nos communications sont occasionnelles et toujours pertinentes. </p>
+                            <p><?php echo lang('textnews');?></p>
                             
                             <!-- Start mailchimp form -->
                              <!-- <div class="mc-form-holder">
@@ -277,12 +275,12 @@
                     <div class="row">
                         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                             <div class="title-box">
-                                <h2>Contact</h2>
+                                <h2><?php echo lang('titrecontact');?></h2>
                             </div>
                         </div>
                         <div class="col-sm-6">
                             <div class="contact-details">
-                                <p>Des questions ? Des remarques ? Ou juste envie de nous rejoindre ? N’hésitez pas à nous contacter !</p>
+                                <p><?php echo lang('textcontact');?></p>
                                 <ul class="list-unstyled">
                                     <li><i class="fa fa-fw fa-map-marker"></i>Place de la minoterie 10, 1080 Molenbeek</li>
                                     <li><i class="fa fa-fw fa-phone"></i><a href="tel:04-721-820">0 476 651 820</a></li>
@@ -298,22 +296,22 @@
                                 <div id="msgSubmit" class="hidden btn-success"></div>
                                 <div class="form-group">
                                     <div class="help-block with-errors hidden"></div>
-                                    <input name="fname" id="fname" placeholder="Your Name*" class="form-control" type="text" required data-error="Please enter Name"> 
+                                    <input name="fname" id="fname" placeholder="<?php echo lang('fieldname');?>" class="form-control" type="text" required data-error="Please enter Name"> 
                                     <div class="input-group-icon"><i class="fa fa-user"></i></div>
                                 </div>
                                 <div class="form-group">
                                     <div class="help-block with-errors hidden"></div>
-                                    <input name="email" id="email" placeholder="Your Email*" class="form-control" type="email" required data-error="Please enter Email"> 
+                                    <input name="email" id="email" placeholder="<?php echo lang('fieldemail');?>" class="form-control" type="email" required data-error="Please enter Email"> 
                                     <div class="input-group-icon"><i class="fa fa-envelope"></i></div>
                                 </div>
                                 <div class="form-group">
                                     <div class="help-block with-errors hidden"></div>
-                                    <textarea rows="3" name="message" id="message" placeholder="Write comment here*" class="form-control" required data-error="Please enter message"></textarea>
+                                    <textarea rows="3" name="message" id="message" placeholder="<?php echo lang('fieldcomment');?>" class="form-control" required data-error="Please enter message"></textarea>
                                     <div class="input-group-icon"><i class="fa fa-pencil"></i></div>
                                 </div>
                                 <div class="form-group">
-                                    <button type="submit" id="submit" class="btn btn-custom btn-transparent">Send Message</button>                              
-                                    <span class="sub-text">* Required fields</span>
+                                    <button type="submit" id="submit" class="btn btn-custom btn-transparent"><?php echo lang('btnsend');?></button>                              
+                                    <span class="sub-text"><?php echo lang('fieldrequired');?></span>
                                 </div>
                             </form>
                             <!-- end contact form -->

@@ -9,7 +9,7 @@ class Langchange extends MY_Controller
     }
     public function index()
     {
-        $this->render('pages/home');
+        $this->render('/template/pages/home');
     }
     public function change($lang_abbr)
     {

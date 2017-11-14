@@ -5,49 +5,56 @@ if (! defined ( 'BASEPATH' )) {
 }
 
 // Btn home
-$lang ['notreprojet'] = "QUI SUIS-JE?";
-$lang ['avantages'] = "QUI SUIS-JE?";
-$lang ['newsletter'] = "QUI SUIS-JE?";
-$lang ['contact'] = "QUI SUIS-JE?";
+$lang ['notreprojet'] = "Our Porject";
+$lang ['avantages'] = "Avantages";
+$lang ['newsletter'] = "Newsletter";
+$lang ['contact'] = "Contact";
 
 // Page Newsletter
 
-$lang ['textenews'] = "QUI SUIS-JE?";
+$lang ['textenews'] = "Feel free to leave us your email address if you want to be sure not to miss our website’s launch! We will keep you informed of our latest news through our newsletter.
+Of course, we guarantee that we will never share your address and will never send you spam. Our communications are occasional and always relevant.
+";
 
 // Page Contact
 
-$lang ['titrecontact'] = "QUI SUIS-JE?";
-$lang ['textecontact'] = "QUI SUIS-JE?";
+$lang ['titrecontact'] = "Contact";
+$lang ['textecontact'] = "Questions ? Remarks ? Want to join BlankTitle? Do not hesitate to contact us via the following form!";
 
-$lang ['fieldname'] = "QUI SUIS-JE?";
-$lang ['fieldemai'] = "QUI SUIS-JE?";
-$lang ['fieldcomment'] = "QUI SUIS-JE?";
-$lang ['btnsend'] = "QUI SUIS-JE?";
-$lang ['fieldrequired'] = "QUI SUIS-JE?";
+$lang ['fieldname'] = "Your Name*";
+$lang ['fieldemai'] = "Your Email*";
+$lang ['fieldcomment'] = "Write comment here*";
+$lang ['btnsend'] = "Send Message";
+$lang ['fieldrequired'] = "Required fields";
 
 // Page avantages
 
-$lang ['artiste'] = "QUI SUIS-JE?";
-$lang ['titreleft'] = "QUI SUIS-JE?";
-$lang ['textleft'] = "QUI SUIS-JE?";
-$lang ['titremiddel'] = "QUI SUIS-JE?";
-$lang ['textmiddel'] = "QUI SUIS-JE?";
-$lang ['titreright'] = "QUI SUIS-JE?";
-$lang ['textright'] = "QUI SUIS-JE?";
+$lang ['artiste'] = "Artistes";
+$lang ['titreleft'] = "Simplicity";
+$lang ['textleft'] = "Do not worry about promotion anymore.
+You can concentrate on your creations, we’ll take care of the rest!
+";
+$lang ['titremiddel'] = "Visibility";
+$lang ['textmiddel'] = "Thanks to Incub.art, you will benefit from a free platform to diffuse the works and events of your choice.";
+$lang ['titreright'] = "Gratification";
+$lang ['textright'] = "Be known for your existing projects and finance your upcoming projects.";
 
-$lang ['acheteurs'] = "QUI SUIS-JE?";
-$lang ['titreleftbuy'] = "QUI SUIS-JE?";
-$lang ['textleftbuy'] = "QUI SUIS-JE?";
-$lang ['titremiddelbuy'] = "QUI SUIS-JE?";
-$lang ['textmiddelbuy'] = "QUI SUIS-JE?";
-$lang ['titrerightbuy'] = "QUI SUIS-JE?";
-$lang ['textrightbuy'] = "QUI SUIS-JE?";
+$lang ['acheteurs'] = "Art lovers";
+$lang ['titreleftbuy'] = "Discover";
+$lang ['textleftbuy'] = "In a few clicks, find the artists of tomorrow in a complete and regularly updated gallery.";
+$lang ['titremiddelbuy'] = "Choice";
+$lang ['textmiddelbuy'] = "Honest art lover or initiated esthete, you will always find an option that will suit you.";
+$lang ['titrerightbuy'] = "Buy";
+$lang ['textrightbuy'] = "With your support to emerging artist, you invest in the talent of tomorrow’s creators.";
 
 // Page Porjet
 
-$lang ['titleprojet'] = "QUI SUIS-JE?";
-$lang ['textprojet'] = "QUI SUIS-JE?";
+$lang ['notre'] = "Our";
+$lang ['projet'] = " projet";
+$lang ['textprojet'] = "BlankTitle is an art incubator project. As a first step, our platform will offer young, innovative artists a sales and visibility space so they have more time to devote to their passion. We then have for ambition to create events (exhibitions, meetings ...) as well as to make available a workshop space.";
 
-$lang ['titlewho'] = "QUI SUIS-JE?";
-$lang ['textjerem'] = "QUI SUIS-JE?";
-$lang ['textjean'] = "QUI SUIS-JE?";
+$lang ['qui'] = "Who";
+$lang ['sommes'] = " are-we";
+$lang ['textjerem'] = "After obtaining his bachelor option art at ENSA Dijon, Jérémy came to further his studies in Brussels. Feeling frustrated by the difficulties common to young artists, he decided to expand his skills by following different courses. This is where he imagines the art gallery incubator as a starter solution.";
+$lang ['textjean'] = "Pragmatic, efficient, with a sharp creative edge, he likes to use the right words at the right time. He has also explored this passion by working as a copywriter in an agency after completing his studies in communication. Determined to broaden his horizons, he joins forces with Jérémy to give life to an exciting and necessary project.
+";
