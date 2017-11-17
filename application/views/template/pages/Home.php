@@ -81,7 +81,7 @@
                                             <div class="icon-holder">
                                                 <i class="fa fa-book"></i>
                                             </div><!-- end icon-holder -->
-                                            <div class="text-box">
+                                            <div class="text-box resize">
                                                 <div class="title-box">
                                                     <h3><?php echo lang('notre');?><strong><?php echo lang('projet');?></strong></h3>
                                                 </div>
