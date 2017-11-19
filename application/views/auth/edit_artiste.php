@@ -1,15 +1,15 @@
-<div class="row">
+
+  <div class="row">
         <div class="col-lg-12 col-xs-12 ">
         <!-- small box -->
                 <div class="small-box bg-yellow">
                         <div class="inner col-xs-offset-1">
-                                <h3>Ajouter un article</h3>
+                                <h3>Ajouter un artiste</h3>
                         </div>
                 </div>
         </div>
 <!-- ./col -->
-</div>
-<!-- Left col -->
+</div>              
 <section class="connectedSortable col-md-offset-1">
         <div class="row">
                 <div class="col-lg-4">
@@ -61,3 +61,7 @@
 
 
 
+                
+
+
+ 
