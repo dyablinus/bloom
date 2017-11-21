@@ -1291,7 +1291,7 @@ img{
 	color: #fff;
 }
 .gallery-heading h4 a:hover {
-	color: #daa106;
+	color: #d96b68;
 }
 .gallery-heading {
 	transition: all 0.2s linear 0s;
@@ -1849,7 +1849,7 @@ form .error {
 	 content: '';
     width: 100%;
     height:1px;
-    background:rgb(180, 158, 57);
+    background:#d96b68;
 	display:block;
 }
 .footer-logo__block img{

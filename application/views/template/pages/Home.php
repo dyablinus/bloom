@@ -1,12 +1,12 @@
     
     <section id="Main" class="overlay">
         <div class="overlay-content">
-            <div id="menu_langue" class="col-xs-3 col-xs-offset-9">
+            <!-- <div id="menu_langue" class="col-xs-3 col-xs-offset-9">
                 <div class="lang_en lang">
                     <a class="btn_nav_lang_en" href=<?php echo base_url("/langchange/change/fr") ?>>FR</a>
                     <a class="btn_nav_lang_en" href=<?php echo base_url("/langchange/change/en") ?>>EN</a>
                 </div>
-            </div>
+            </div> -->
             <div class="content">
                 <div class="container"> 
                     <!-- coming-soon header text start -->
