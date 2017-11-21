@@ -3,12 +3,13 @@
 
 <head>
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-    <title>PRISM - Personal Portfolio Template</title>
+    <title>BlogTitle</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
     <!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
 
     <!-- Favicone Icon -->
     <!-- <link rel="shortcut icon" type="image/x-icon" href="favicon.ico"> -->
+    <link href="assets/images/logourban.ico" rel="icon">
     <!-- CSS -->
     <link href="http://fonts.googleapis.com/css?family=lato:Open+Sans:400,300,600,700,800%7CMontserrat:200,300,400,500,500i,600,700,800"
         rel="stylesheet" type="text/css">
