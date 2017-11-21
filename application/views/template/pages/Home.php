@@ -1,12 +1,14 @@
     
     <section id="Main" class="overlay">
         <div class="overlay-content">
+            <!--
             <div id="menu_langue" class="col-xs-3 col-xs-offset-9">
                 <div class="lang_en lang">
-                    <a class="btn_nav_lang_en" href=<?php echo base_url("/langchange/change/fr") ?>>FR</a>
+                    <a class="btn_nav_lang_fr" href=<?php echo base_url("/langchange/change/fr") ?>>FR</a>
                     <a class="btn_nav_lang_en" href=<?php echo base_url("/langchange/change/en") ?>>EN</a>
                 </div>
             </div>
+-->
             <div class="content">
                 <div class="container"> 
                     <!-- coming-soon header text start -->
@@ -24,10 +26,10 @@
 
                     <!-- Buttons start -->
                     <div class="btn-holder">
-                        <a href="javascript:void(0)" class="btn btn-custom btn-transparent" onclick="openAboutStyle()"><?php echo lang('notreprojet');?></a>
-                        <a href="javascript:void(0)" class="btn btn-custom btn-transparent" onclick="openServicesStyle()"><?php echo lang('avantages');?></a>
-                        <a href="javascript:void(0)" class="btn btn-custom btn-transparent" onclick="openSubscribeStyle()"><?php echo lang('newsletter');?></a>
-                        <a href="javascript:void(0)" class="btn btn-custom btn-transparent" onclick="openContactStyle()"><?php echo lang('contact');?></a>
+                        <a href="javascript:void(0)" class="btn btn-custom btn-transparent" onclick="openAboutStyle()">Our project</a>
+                        <a href="javascript:void(0)" class="btn btn-custom btn-transparent" onclick="openServicesStyle()">Avantages</a>
+                        <a href="javascript:void(0)" class="btn btn-custom btn-transparent" onclick="openSubscribeStyle()">Newsletter</a>
+                        <a href="javascript:void(0)" class="btn btn-custom btn-transparent" onclick="openContactStyle()">Contact</a>
                     </div>
                     <!-- Buttons end -->
                     
@@ -83,9 +85,9 @@
                                             </div><!-- end icon-holder -->
                                             <div class="text-box resize">
                                                 <div class="title-box">
-                                                    <h3><?php echo lang('notre');?><strong><?php echo lang('projet');?></strong></h3>
+                                                    <h3>Our project</h3>
                                                 </div>
-                                                <p><?php echo lang('textprojet');?></p>
+                                                <p>BlankTitle is an art incubator project. As a first step, our platform will offer young, innovative artists a sales and visibility space so they have more time to devote to their passion. We then have for ambition to create events (exhibitions, meetings ...) as well as to make available a workshop space.</p>
                                             </div><!-- end text-box -->
                                         </div><!-- end about-wrap -->
                                     </div><!-- end col -->
@@ -96,7 +98,7 @@
                                             </div><!-- end icon-holder -->
                                             <div class="text-box">
                                                 <div class="title-box">
-                                                    <h3><?php echo lang('qui');?><strong><?php echo lang('sommes');?></strong></h3>
+                                                    <h3>Who are we ?</h3>
                                                 </div>
                                             </div><!-- end text-box -->
                                         </div><!-- end about-wrap -->
@@ -110,7 +112,7 @@
                                                 <div class="name-box text-center">
                                                     <h3>Jérémy <strong>Ruiz</strong></h3>
                                                 </div>
-                                                <p><?php echo lang('textjerem');?></p>
+                                                <p>After obtaining his bachelor option art at ENSA Dijon, Jérémy came to further his studies in Brussels. Feeling frustrated by the difficulties common to young artists, he decided to expand his skills by following different courses. This is where he imagines the art gallery incubator as a starter solution.</p>
                                             </div><!-- end text-box -->
                                         </div><!-- end about-wrap -->
                                     </div><!-- end col -->
@@ -123,7 +125,7 @@
                                                 <div class="name-box text-center">
                                                     <h3>Jean <strong>Lejeune</strong></h3>
                                                 </div>
-                                                <p><?php echo lang('textjean');?> </p>                                             
+                                                <p>Pragmatic, efficient, with a sharp creative edge, he likes to use the right words at the right time. He has also explored this passion by working as a copywriter in an agency after completing his studies in communication. Determined to broaden his horizons, he joins forces with Jérémy to give life to an exciting and necessary project.</p>                                             
                                             </div><!-- end text-box -->
                                         </div><!-- end about-wrap -->
                                     </div><!-- end col -->
@@ -145,7 +147,7 @@
             <div class="content">
                 <div class="container">
                     <div class="title-box">
-                        <h2><?php echo lang('artiste');?></h2>
+                        <h2>Artists</h2>
                     </div>  
                     <!-- Start Services box -->
                     <div class="Services-box">
@@ -153,29 +155,29 @@
                             <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4">
                                 <div class="service-item">
                                     <i class="fa fa-paint-brush fa-3x"></i>                                                                 
-                                    <h3><?php echo lang('titreleft');?></h3>
-                                    <p><?php echo lang('textleft');?></p>
+                                    <h3>Simplicity</h3>
+                                    <p>Do not worry about promotion anymore. You can concentrate on your creations, we’ll take care of the rest!</p>
                                 </div>
                             </div>
                             <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4">
                                 <div class="service-item">
                                     <i class="fa fa-bullhorn fa-3x"></i>                                
-                                    <h3><?php echo lang('titremiddel');?></h3>
-                                    <p><?php echo lang('textmiddel');?></p>
+                                    <h3>Visibility</h3>
+                                    <p>Thanks to BlankTitle, you will benefit from a free platform to diffuse the works and events of your choice.</p>
                                 </div>
                             </div>
                             <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4 margin-agencement">
                                 <div class="service-item ajust">
                                     <i class="fa fa-usd fa-3x"></i>
-                                    <h3><?php echo lang('titreright');?></h3>
-                                    <p><?php echo lang('textright');?></p>
+                                    <h3>Gratification</h3>
+                                    <p>Be known for your existing projects and finance your upcoming projects.</p>
                                 </div>
                             </div>
                         </div>
                     </div>
                     
                     <div class="title-box">
-                        <h2><?php echo lang('acheteurs');?></h2>
+                        <h2>Art lovers</h2>
                     </div>
 
                     <div class="Services-box">
@@ -184,22 +186,22 @@
                             <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4 ">
                                 <div class="service-item ajust">
                                     <i class="fa fa-search fa-3x"></i>
-                                    <h3><?php echo lang('titreleftbuy');?></h3>
-                                    <p><?php echo lang('textleftbuy');?></p>
+                                    <h3>Discover</h3>
+                                    <p>In a few clicks, find the artists of tomorrow in a complete and regularly updated gallery.</p>
                                 </div>
                             </div>
                             <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4">
                                 <div class="service-item">
                                     <i class="fa fa-balance-scale fa-3x"></i>
-                                    <h3><?php echo lang('titremiddelbuy');?></h3>
-                                    <p><?php echo lang('textmiddelbuy');?></p>
+                                    <h3>Choice</h3>
+                                    <p>Honest art lover or initiated esthete, you will always find an option that will suit you.</p>
                                 </div>
                             </div>
                             <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4">
                                 <div class="service-item">
                                     <i class="fa fa-shopping-cart fa-3x"></i>
-                                    <h3><?php echo lang('titrerightbuy');?></h3>
-                                    <p><?php echo lang('textrightbuy');?></p>
+                                    <h3>Buy</h3>
+                                    <p>With your support to emerging artist, you invest in the talent of tomorrow’s creators.</p>
                                 </div>
                             </div>
                         </div><!-- end row -->
@@ -222,7 +224,8 @@
                             <div class="title-box">
                                 <h2>Newsletter</h2>
                             </div>
-                            <p><?php echo lang('textnews');?></p>
+                            <p>Feel free to leave us your email address if you want to be sure not to miss our website’s launch! We will keep you informed of our latest news through our newsletter.
+Of course, we guarantee that we will never share your address and will never send you spam. Our communications are occasional and always relevant.</p>
                             
                             <!-- Start mailchimp form -->
                              <!-- <div class="mc-form-holder">
@@ -275,12 +278,12 @@
                     <div class="row">
                         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                             <div class="title-box">
-                                <h2><?php echo lang('titrecontact');?></h2>
+                                <h2>Contact</h2>
                             </div>
                         </div>
                         <div class="col-sm-6">
                             <div class="contact-details">
-                                <p><?php echo lang('textcontact');?></p>
+                                <p>Questions ? Remarks ? Want to join BlankTitle? Do not hesitate to contact us via the following form!</p>
                                 <ul class="list-unstyled">
                                     <li><i class="fa fa-fw fa-map-marker"></i>Place de la minoterie 10, 1080 Molenbeek</li>
                                     <li><i class="fa fa-fw fa-phone"></i><a href="tel:04-721-820">0 476 651 820</a></li>
@@ -296,22 +299,22 @@
                                 <div id="msgSubmit" class="hidden btn-success"></div>
                                 <div class="form-group">
                                     <div class="help-block with-errors hidden"></div>
-                                    <input name="fname" id="fname" placeholder="<?php echo lang('fieldname');?>" class="form-control" type="text" required data-error="Please enter Name"> 
+                                    <input name="fname" id="fname" placeholder="Your Name*" class="form-control" type="text" required data-error="Please enter Name"> 
                                     <div class="input-group-icon"><i class="fa fa-user"></i></div>
                                 </div>
                                 <div class="form-group">
                                     <div class="help-block with-errors hidden"></div>
-                                    <input name="email" id="email" placeholder="<?php echo lang('fieldemail');?>" class="form-control" type="email" required data-error="Please enter Email"> 
+                                    <input name="email" id="email" placeholder="Your Email*" class="form-control" type="email" required data-error="Please enter Email"> 
                                     <div class="input-group-icon"><i class="fa fa-envelope"></i></div>
                                 </div>
                                 <div class="form-group">
                                     <div class="help-block with-errors hidden"></div>
-                                    <textarea rows="3" name="message" id="message" placeholder="<?php echo lang('fieldcomment');?>" class="form-control" required data-error="Please enter message"></textarea>
+                                    <textarea rows="3" name="message" id="message" placeholder="Write comment here*" class="form-control" required data-error="Please enter message"></textarea>
                                     <div class="input-group-icon"><i class="fa fa-pencil"></i></div>
                                 </div>
                                 <div class="form-group">
-                                    <button type="submit" id="submit" class="btn btn-custom btn-transparent"><?php echo lang('btnsend');?></button>                              
-                                    <span class="sub-text"><?php echo lang('fieldrequired');?></span>
+                                    <button type="submit" id="submit" class="btn btn-custom btn-transparent">Send Message</button>                              
+                                    <span class="sub-text">*Required fields</span>
                                 </div>
                             </form>
                             <!-- end contact form -->
