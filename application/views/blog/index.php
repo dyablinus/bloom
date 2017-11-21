@@ -31,7 +31,7 @@
   <div class="container">
     <div class="row pb-30 text-center">
       <div class="col-sm-12 mb-20 dark-color">
-        <h2>About Monster</h2>
+        <h2>BlankTitle</h2>
       </div>
     </div>
     <div class="row">
@@ -40,31 +40,13 @@
       </div>
       <div class="col-sm-12 col-md-6 ">
         <div class="item">
-          <div class="header-wrap mb-30">
-            <h3 class="color">I’ am a Designer</h3>
-          </div>
           <div class="dark-color">
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+          <h5 class="color">Lorem Ipsum is</h5>
+            <p> simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
               standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to
               make a type specimen book. It has survived not only five centuries</p>
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
               standard </p>
-            <div class="our_skil">
-              <ul class="skill_point">
-                <li class="wow fadeInDown" data-wow-delay="0.2s">
-                  <div class="skill_label bg_color counter" data-count="70">0</div>
-                  Web design </li>
-                <li class="wow fadeInDown" data-wow-delay="0.25s">
-                  <div class="skill_label bg_color counter" data-count="85">0</div>
-                  User experience </li>
-                <li class="wow fadeInDown" data-wow-delay="0.3s">
-                  <div class="skill_label bg_color counter" data-count="80">0</div>
-                  Wordpress </li>
-                <li class="wow fadeInDown" data-wow-delay="0.35s">
-                  <div class="skill_label bg_color counter" data-count="95">0</div>
-                  Jquery </li>
-              </ul>
-            </div>
           </div>
         </div>
       </div>
@@ -80,7 +62,7 @@
   <div class="container">
     <div class="row pb-30 text-center">
       <div class="col-sm-12 mb-20">
-        <h2>Our Work</h2>
+        <h2>Our Artistes</h2>
       </div>
     </div>
     <!-- work Filter -->
@@ -166,7 +148,7 @@
   <div class="container">
     <div class="row pb-30 text-center">
       <div class="col-sm-12 mb-20">
-        <h2>Reviews!</h2>
+        <h2>Exhibition</h2>
       </div>
     </div>
     <div class="row">
@@ -240,7 +222,7 @@
   <div class="container ">
     <div class="row pb-30 text-center">
       <div class="col-sm-12 mb-20">
-        <h2>Contact Me!</h2>
+        <h2>Contact Us!</h2>
       </div>
     </div>
     <div class="row">
@@ -259,7 +241,7 @@
           <form class="mt-45 pb-60" id="contact ">
             <!-- IF MAIL SENT SUCCESSFULLY -->
             <div id="success">
-              <div role="alert" class="alert alert-success"> <strong>Thanks</strong> for using our template. Your message has been sent. </div>
+              <div role="alert" class="alert alert-success"> <strong>Thanks</strong> for our interessed. Your message has been sent. </div>
             </div>
             <!-- END IF MAIL SENT SUCCESSFULLY -->
             <div class="row">
