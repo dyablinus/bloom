@@ -5,7 +5,7 @@ if (! defined ( 'BASEPATH' )) {
 }
 
 // Btn home
-$lang ['notreprojet'] = "Our Porject";
+$lang ['notreprojet'] = "Our Project";
 $lang ['avantages'] = "Avantages";
 $lang ['newsletter'] = "Newsletter";
 $lang ['contact'] = "Contact";

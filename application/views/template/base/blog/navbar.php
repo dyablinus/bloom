@@ -3,7 +3,7 @@
         <div class="row">
         <div class="col-sm-3">
             <!-- START LOGO DESIGN AREA -->
-            <div class="logo"> <a href="index.html">BlankTilte</a> </div>
+            <div class="logo"> <a href="index.html">BlankTitle</a> </div>
             <!-- END LOGO DESIGN AREA -->
         </div>
         <div class="col-sm-9">

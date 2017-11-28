@@ -12,7 +12,7 @@ $(document).ready(function () {
  -------------------------------------------------*/
 var mapWrap = $('#map');
 if (mapWrap.length) {
-	var myCenter = new google.maps.LatLng(51.538308, -0.3817765);
+	var myCenter = new google.maps.LatLng(50.8553515, 4.341252800000007);
 	function initialize() {
 		var mapProp = {
 			center: myCenter,
