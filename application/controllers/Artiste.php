@@ -34,18 +34,19 @@ class Artiste extends MY_Controller
         $name = $_FILES["userfile"]["name"];
         $ext = end((explode(".", $name))); # extra () to prevent notice
 
-        $config['upload_path']   = './uploads/schepmans/files/schepmans_';
+        $config['upload_path']   = './uploads/artistes';
         $config['allowed_types'] = '|jpg|png|jpeg|PNG|JPEG|JPG|pdf';
         $config['max_size']      = 0;
 
-        $config['upload_path']   = './uploads/schepmans/files/schepmans_';
+        $config['upload_path']   = './uploads/artistes';
         $config['allowed_types'] = '|jpg|png|jpeg|PNG|JPEG|JPG|pdf';
         $config['max_size']      = 0;
 
         $this->load->library('upload', $config);
-
+        $this->form_validation->set_rules('valeur', 'value', 'required');
         $this->form_validation->set_rules('name', 'name', 'required|min_length[2]');
-        $this->form_validation->set_rules('poste', 'poste', 'required|min_length[2]');
+        $this->form_validation->set_rules('texte', 'texte', 'required|min_length[2]');
+
 
 
 
@@ -59,20 +60,21 @@ class Artiste extends MY_Controller
                     $file_data = $file;
                 }
 
-                $this->db->insert('equipe', array(
+                $this->db->insert('artiste', array(
                     // So you can work with the values, like:
+                    'valeur' => $this->input->post('valeur', true),
                     'name' => $this->input->post('name', true), // TRUE is XSS protection
-                    'poste' => $this->input->post('poste', true),
+                    'texte' => $this->input->post('texte', true),
                     'file_name' => $file_data['file_name'],
                 ));
 
                 $this->session->set_flashdata('success', "<div class='alert alert-success' style='font-size: 20px;'>Succés.</div>");
-                redirect('edit');
+                redirect('artiste');
             }
         } else {
             $this->session->set_flashdata('error', "<div class='alert alert-danger' style='font-size: 20px;'>Veuillez remplir toutes les cases.</div>");
 
-            redirect('edit');
+            redirect('artiste');
         }
     }
 

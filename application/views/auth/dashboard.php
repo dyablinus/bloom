@@ -34,12 +34,22 @@
                         'Size'   => '20',
                         'name'   => 'userfile'
                         );
-                
+
                         ?>
 
                         <?php echo form_error('title'); ?>
                         <?php echo form_label('Titre de l\'article', 'title'); ?>
                         <?php echo form_input($data_title); ?>
+
+                        <?php echo form_label('Catégorie de l\'article', 'valeur'); ?>
+                        <br>
+                        <select name="valeur" id="valeur">
+                                <option class="no_value" value="">---</option>
+                                <option class="Expositions" for="valeur">Expositions</option>
+                                <option class="Artistes" for="valeur">Artistes</option>      
+                                <option class="Oeuvres" for="valeur">Oeuvres</option>      
+                                <option class="Evenements" for="valeur">Evenements</option>      
+                        </select>
                 </div>        
                 <div class="col-lg-4">    
                         <?php echo form_error('file'); ?>
@@ -55,6 +65,8 @@
                         
                         <?php echo form_submit('mysubmit', 'Publish', array('class' => 'btn btn-primary')); ?>
                         <?php echo form_close() ?> 
+                        
+                        <button href="<?php echo base_url("edit/save") ?>" type="button" class="btn btn-info">Save</button>
                 </div>
         </div> 
 </section>

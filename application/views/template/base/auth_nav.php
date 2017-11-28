@@ -61,19 +61,25 @@
         
         <li style="font-size:20px">
           <a href="<?= base_url("/edit/show_all")?>">
-            <i class="fa fa-pencil-square-o"></i> <span>Modifier un article</span>
+            <i class="fa fa-pencil-square-o"></i> <span>Update article</span>
           </a>
         </li>
 
         <li style="font-size:20px">
           <a href="<?= base_url("/Artiste/index")?>">
-            <i class="ion ion-person-add"></i> <span>Ajouter un artiste</span>
+            <i class="ion ion-person-add"></i> <span>Add artiste</span>
           </a>
         </li>
 
         <li style="font-size:20px">
           <a href="<?= base_url("/Artiste/show_all")?>">
-            <i class="fa fa-users"></i> <span>Modifier un artiste</span>
+            <i class="fa fa-users"></i> <span>Update artiste</span>
+          </a>
+        </li>
+
+        <li style="font-size:20px">
+          <a href="<?= base_url("/edit/draft")?>">
+            <i class="fa fa-file-archive-o"></i> <span>Draft</span>
           </a>
         </li>
 

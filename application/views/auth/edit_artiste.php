@@ -19,14 +19,14 @@
                 
                         <!-- defini vers quelle methode envoyer le form -->
                         <?php
-                        $link=base_url('edit/create');
+                        $link=base_url('artiste/create');
                         echo form_open_multipart($link); ?>
                         <?php
 
-                        $data_title = array(
-                        'title'  => 'title',
+                        $data_name = array(
+                        'name'  => 'name',
                         'Class'   => 'form-control',
-                        'name'   => 'title'
+                        'name'   => 'name'
                         );
 
                         $data_image = array(
@@ -37,13 +37,24 @@
                 
                         ?>
 
-                        <?php echo form_error('title'); ?>
-                        <?php echo form_label('Titre de l\'article', 'title'); ?>
-                        <?php echo form_input($data_title); ?>
+
+                        <?php echo form_error('name'); ?>
+                        <?php echo form_label('Nom de l\'artiste', 'name'); ?>
+                        <?php echo form_input($data_name); ?>
+
+                        <?php echo form_label('Médium', 'valeur'); ?>
+                        <br>
+                        <select name="valeur" id="valeur">
+                                <option class="no_value" value="">---</option>
+                                <option class="Photographe" for="valeur">Photographie</option>
+                                <option class="Peintre" for="valeur">Peinture</option>      
+                                <option class="Sculpteur" for="valeur">Sculpture/Volume</option>      
+                                <option class="Sculpteur" for="valeur">Dessin</option>      
+                        </select>
                 </div>        
                 <div class="col-lg-4">    
                         <?php echo form_error('file'); ?>
-                        <?php echo form_label('Image de l\'article max 2 Mo', 'userfile'); ?>
+                        <?php echo form_label('Photo de l\artiste max 2 Mo', 'userfile'); ?>
                         <?php echo form_upload($data_image); ?>
                 
                 </div>

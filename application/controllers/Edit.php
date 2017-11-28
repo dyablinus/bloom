@@ -23,7 +23,7 @@ class Edit extends MY_Controller
             // redirect them to the login page
             redirect('auth/login', 'refresh');
         } elseif ($this->ion_auth->is_admin()) { // remove this elseif if you want to enable this for non-admins
-            $this->authrender('auth/edit');
+            $this->authrender('auth/dashboard');
         }
     }
     public function create()
@@ -34,11 +34,11 @@ class Edit extends MY_Controller
         $name = $_FILES["userfile"]["name"];
         $ext = end((explode(".", $name))); # extra () to prevent notice
 
-        $config['upload_path']   = './uploads/schepmans/files/schepmans_';
+        $config['upload_path']   = './uploads/blog/files';
         $config['allowed_types'] = '|jpg|png|jpeg|PNG|JPEG|JPG|pdf';
         $config['max_size']      = 0;
 
-        $config['upload_path']   = './uploads/schepmans/files/schepmans_';
+        $config['upload_path']   = './uploads/blog/files';
         $config['allowed_types'] = '|jpg|png|jpeg|PNG|JPEG|JPG|pdf';
         $config['max_size']      = 0;
 
@@ -46,7 +46,6 @@ class Edit extends MY_Controller
 
         $this->form_validation->set_rules('valeur', 'value', 'required');
         $this->form_validation->set_rules('title', 'Title', 'required|min_length[2]');
-        $this->form_validation->set_rules('date', 'date', 'required|min_length[2]');
         $this->form_validation->set_rules('texte', 'texte', 'required|min_length[2]');
 
 
@@ -65,18 +64,15 @@ class Edit extends MY_Controller
                     // So you can work with the values, like:
                     'valeur' => $this->input->post('valeur', true),
                     'title' => $this->input->post('title', true), // TRUE is XSS protection
-                    'date' => $this->input->post('date', true),
                     'texte' => $this->input->post('texte', true),
-                    'link' => $this->input->post('link', true),
-                    'video' => $this->input->post('video', true),
                     'file_name' => $file_data['file_name'],
                 ));
 
-                $this->session->set_flashdata('success', "<div class='alert alert-success' style='font-size: 20px;'>Succés.</div>");
+                $this->session->set_flashdata('success', "<div class='alert alert-success' style='font-size: 20px;'>Succès.</div>");
                 redirect('edit');
             }
         } else {
-            $this->session->set_flashdata('error', "<div class='alert alert-danger' style='font-size: 20px;'>Veuillez remplir toutes les cases.</div>");
+            $this->session->set_flashdata('error', "<div class='alert alert-danger' style='font-size: 20px;'>Veuillez remplir toutes les champs.</div>");
 
             redirect('edit');
         }
@@ -126,24 +122,41 @@ class Edit extends MY_Controller
         $this->authrender('auth/delete');
     }
 
-    public function create_slider()
+        public function draft()
     {
+        if (!$this->ion_auth->logged_in()) {
+        // redirect them to the login page
+        redirect('auth/login', 'refresh');
+        } elseif ($this->ion_auth->is_admin()) { // remove this elseif if you want to enable this for non-admins
+        $this->data["result"] = $this->edit_model->get_where_draft();
+        $this->authrender('auth/draft');
+        }
 
+    }
+
+        public function save()
+    {
         $fileData = array();
         // File upload script
         $name = $_FILES["userfile"]["name"];
         $ext = end((explode(".", $name))); # extra () to prevent notice
 
-        $config['upload_path']   = './uploads/schepmans/files/schepmans_';
+        $config['upload_path']   = './uploads/draft/files';
+        $config['allowed_types'] = '|jpg|png|jpeg|PNG|JPEG|JPG|pdf';
+        $config['max_size']      = 0;
+
+        $config['upload_path']   = './uploads/draft/files';
         $config['allowed_types'] = '|jpg|png|jpeg|PNG|JPEG|JPG|pdf';
         $config['max_size']      = 0;
 
         $this->load->library('upload', $config);
 
+        $this->form_validation->set_rules('valeur', 'value', 'required');
         $this->form_validation->set_rules('title', 'Title', 'required|min_length[2]');
-        $this->form_validation->set_rules('date', 'date', 'required|min_length[2]');
         $this->form_validation->set_rules('texte', 'texte', 'required|min_length[2]');
-        $this->form_validation->set_rules('link', 'link', 'required|min_length[2]');
+
+
+
 
         if ($this->form_validation->run() == true) {
             if ($this->upload->do_upload('userfile')) {
@@ -154,25 +167,22 @@ class Edit extends MY_Controller
                     $file_data = $file;
                 }
 
-                $this->db->insert('sliders', array(
+                $this->db->insert('draft', array(
                     // So you can work with the values, like:
+                    'valeur' => $this->input->post('valeur', true),
                     'title' => $this->input->post('title', true), // TRUE is XSS protection
-                    'date' => $this->input->post('date', true),
                     'texte' => $this->input->post('texte', true),
-                    'link' => $this->input->post('link', true),
                     'file_name' => $file_data['file_name'],
-                    
                 ));
 
-                $this->session->set_flashdata('success', "<div class='alert alert-success' style='font-size: 20px;'>Succés.</div>");
-                redirect('auth/index');
-            } else {
-                $this->session->set_flashdata('error', $this->upload->display_errors());
-                redirect('auth/index');
+                $this->session->set_flashdata('success', "<div class='alert alert-success' style='font-size: 20px;'>Succès.</div>");
+                redirect('edit');
             }
         } else {
-            $this->session->set_flashdata('error', validation_errors());
+            $this->session->set_flashdata('error', "<div class='alert alert-danger' style='font-size: 20px;'>Veuillez remplir toutes les champs.</div>");
+
             redirect('edit');
         }
     }
+
 }

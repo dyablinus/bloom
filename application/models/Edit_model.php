@@ -30,6 +30,13 @@ class Edit_model extends CI_Model
         $result = $this->db->get_where($this->table, $where);
         return $result;
     }
+    public function get_where_draft($where = array())
+    {
+        $this->db->where('deleted', 0);
+        // va chercher dans db table
+        $result = $this->db->get_where("draft", $where);
+        return $result;
+    }
 
 // créer un tableau avec le post et son message
     public function create($data_article)
@@ -39,14 +46,11 @@ class Edit_model extends CI_Model
     }
 
  //modifie le commentaire
-    public function update($title, $texte, $date, $link, $video, $id)
+    public function update($title, $texte, $id)
     {
         $data = array(
         'title'  => $title,
-        'texte' => $texte,
-        'date' => $date,
-        'link' => $link,
-        'video' => $video
+        'texte' => $texte
         );
 
         $this->db->where('id', $id);

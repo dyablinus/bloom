@@ -3,7 +3,7 @@
         <!-- small box -->
                 <div class="small-box bg-yellow">
                         <div class="inner col-xs-offset-1">
-                                <h3>Modifier un artiste</h3>
+                                <h3>Modifier un article</h3>
                         </div>
                 </div>
         </div>
@@ -15,11 +15,10 @@
         <thead>
             <tr>
                 <th class="col-xs-3"><h3 class="text-center"><strong>Photo</strong></h3></th>
-                <th class="col-xs-2"><h3 class="text-center"><strong>Nom</strong></h3></th>
-                <th class="col-xs-2"><h3 class="text-center"><strong>Pratique</strong></h3></th>
+                <th class="col-xs-2"><h3 class="text-center"><strong>Titre</strong></h3></th>
                 <th class="col-xs-2"><h3 class="text-center"><strong>Texte</strong></h3></th>
+                <th class="col-xs-2"><h3 class="text-center"><strong>Catégorie</strong></h3></th>
                 <th class="col-xs-3"><h3 class="text-center"><strong>Actions</strong></h3></th>
-
             </tr>
         </thead>
     
@@ -28,15 +27,11 @@
                 <tr>
                     <td>
                         <?php if ($rows->file_name): ?>
-                        <img class="img-responsive" src="<?php echo base_url("uploads/artistes/$rows->file_name")?>" alt="">
+                        <img class="img-responsive" src="<?php echo base_url("uploads/blog/$rows->file_name")?>" alt="">
                         <?php endif;?>
                     </td>
-                    <td>
-                        <h3 class="text-center"><a data-toggle="modal" data-target="#myModal<?php echo $rows->id?>"><?php echo $rows->name ?></a>
-                        </h3>
-                    </td>
-                    <td>
-                        <h4 class="colorpara text-center"><?php echo $rows->valeur ?></h4>
+                    <td>    
+                        <h3 class="text-center"><a data-toggle="modal" data-target="#myModal<?php echo $rows->id?>"><?php echo $rows->title ?></a></h3>
                     </td>
                     <td>                            
                         <?php if (strlen(($rows->texte)) > 260) {?>
@@ -44,6 +39,9 @@
                         <?php } else { ?>
                                 <h4 class="colorpara text-center"><?php echo $rows->texte ?> </h4>
                         <?php }?>
+                    </td>
+                    <td>
+                        <h4 class="colorpara text-center"><?php echo $rows->valeur ?></h4>
                     </td>
                     <td class="text-center" scope="row" style="padding-top:2%">
                         <!-- Button trigger modal -->
@@ -58,48 +56,44 @@
                         <div class="modal-content">
                         <div class="modal-header">
                             <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                            <h4 class="modal-title" id="myModalLabel">Modifier un artiste</h4>
+                            <h4 class="modal-title" id="myModalLabel">Terminer l'article</h4>
                         </div>
                         <div class="modal-body" id="contentEdit">
 
 
-                                <?= form_open('artiste/updated_post/' . $rows->id); ?>
+                                <?= form_open('edit/update/' . $rows->id); ?>
 
                                 <?php
 
-                                $data_name = array(
-                                        'name'  => 'name',
+                                $data_title = array(
+                                        'title'  => 'title',
                                         'Class'   => 'form-control',
-                                        'value'   => $rows->name,
-                                        'name'   => 'name'
+                                        'value'   => $rows->title,
+                                        'name'   => 'title'
                                 );
-
-
                                 $data_image = array(
                                         'type'  => 'file',
                                         'Size'   => '20',
-                                        'value'   => $rows->file_name,
                                         'name'   => 'userfile'
                                 );
                                 ?>
                                 <?php echo form_hidden('id_post', $rows->id);?>
-                                <?php echo form_label('Artiste', 'name'); ?>
-                                <?= form_input($data_name); ?>
+                                <?php echo form_label('Title', 'title'); ?>
+                                <?= form_input($data_title); ?>
                                 
-                                <?php echo form_label('Médium', 'valeur'); ?>
+                                <?php echo form_label('Catégorie', 'valeur'); ?>
                                 <br>
                                 <select name="valeur" id="valeur">
                                         <option class="no_value" value=""><?php echo $rows->valeur ?></option>
-                                        <option class="Photographe" for="valeur">Photographie</option>
-                                        <option class="Peintre" for="valeur">Peinture</option>      
-                                        <option class="Sculpteur" for="valeur">Sculpture/Volume</option>      
-                                        <option class="Sculpteur" for="valeur">Dessin</option>      
+                                        <option class="Expositions" for="valeur">Expositions</option>
+                                        <option class="Artistes" for="valeur">Artistes</option>      
+                                        <option class="Oeuvres" for="valeur">Oeuvres</option>      
+                                        <option class="Evenements" for="valeur">Evenements</option>      
                                 </select>
                                 <br>
-                                <?php echo form_label('About the artiste', 'poste'); ?>
+
+                                <?php echo form_label('Article', 'poste'); ?>
                                 <textarea id="some-textarea" name="texte" texte="texte" class="form-control" placeholder="<?php echo $rows->texte ?>" style="styles to copy to the iframe"></textarea>
-
-
 
                             </div>
 
@@ -122,27 +116,27 @@
                             </div>   
                             <div class="modal-body" id="contentEdit">
                             
-                                <?= form_open('equipeedit/updated_post/'); ?>
+                                <?= form_open('edit/updated_post/'); ?>
                                 <?php
 
-                                $data_name = array(
-                                        'name'  => 'name',
+                                $data_title = array(
+                                        'title'  => 'title',
                                         'Class'   => 'form-control',
-                                        'value'   => $rows->name,
-                                        'name'   => 'name'
+                                        'value'   => $rows->title,
+                                        'name'   => 'title'
                                 );
-                                $data_poste = array(
-                                        'poste'  => 'poste',
+                                $data_texte = array(
+                                        'texte'  => 'texte',
                                         'Class'   => 'form-control',
-                                        'value'   => $rows->poste,
-                                        'name'   => 'poste'
+                                        'value'   => $rows->texte,
+                                        'name'   => 'texte'
                                 );
                                 ?>
                                 <?php echo form_hidden('id_post', $rows->id);?>
-                                <?php echo form_label('What is your name', 'name'); ?>
-                                <?= form_input($data_name); ?>
-                                <?php echo form_label('What is your content', 'poste'); ?>
-                                <?= form_textarea($data_poste); ?>
+                                <?php echo form_label('What is your title', 'title'); ?>
+                                <?= form_input($data_title); ?>
+                                <?php echo form_label('What is your content', 'texte'); ?>
+                                <?= form_textarea($data_texte); ?>
 
                                 <?= form_close() ?>
 
@@ -150,7 +144,7 @@
 
                             <div class="modal-footer">
                                 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                                <a href=" <?php echo base_url("equipeedit/delete/".$rows->id); ?>"class="btn btn-lg btn-warning">Delete</a>
+                                <a href=" <?php echo base_url("edit/delete/".$rows->id); ?>"class="btn btn-lg btn-warning">Delete</a>
                             </div>
                         </div>
                     </div>
