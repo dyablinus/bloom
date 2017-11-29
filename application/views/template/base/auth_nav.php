@@ -32,7 +32,7 @@
               <!-- Menu Body -->
               <li class="user-body">
                 <div class="pull-left">
-                  <!--<a href="<?= base_url("#")?>" class="btn btn-default btn-flat">Profile</a>-->
+                  <a href="<?= base_url("auth/change_password")?>" class="btn btn-default btn-flat">Change password</a>
                 </div>
                 <div class="pull-right">
                   <a href="<?= base_url("/auth/logout")?>" class="btn btn-default btn-flat">Sign out</a>
@@ -80,6 +80,12 @@
         <li style="font-size:20px">
           <a href="<?= base_url("/edit/draft")?>">
             <i class="fa fa-file-archive-o"></i> <span>Draft</span>
+          </a>
+        </li>
+
+        <li style="font-size:20px">
+          <a href="<?= base_url("/auth/create_user")?>">
+            <i class="fa fa-user-plus"></i> <span>Create User</span>
           </a>
         </li>
 

@@ -102,11 +102,9 @@ class Edit extends MY_Controller
         // recup info
         $title = $_POST['title'];
         $texte = $_POST['texte'];
-        $date = $_POST['date'];
-        $link = $_POST['link'];
         $id = $_POST['id_post'];
         // maj db, appel de la methode du model
-        $this->edit_model->update($title, $texte, $date, $link, $id);
+        $this->edit_model->update($title, $texte,$id);
         // renvoyer message success
         $this->data["result"] = $this->edit_model->get_where();
         $this->authrender('auth/show_all');

@@ -47,7 +47,7 @@ class User extends MY_Controller {
             // $config['charset']='utf-8';
 			$msg = $this->load->view("mail/index",$data_msg,TRUE);
             $this->email->initialize();
-            $this->email->from($email, 'Site name');
+            $this->email->from($email, 'BlankTitle');
             $this->email->to('jerem.negaret@gmail.com');
             $this->email->subject('Notification Mail');
             $this->email->message($msg);

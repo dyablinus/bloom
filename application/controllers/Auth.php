@@ -94,7 +94,7 @@ class Auth extends MY_Controller
 
         // redirect them to the login page
         $this->session->set_flashdata('message', $this->ion_auth->messages());
-        redirect('auth/login', 'refresh');
+        redirect('blog/', 'refresh');
     }
 
     // change password
@@ -141,7 +141,7 @@ class Auth extends MY_Controller
             );
 
             // render
-            $this->render1('auth/change_password');
+            $this->authrender('auth/change_password');
         } else {
             $identity = $this->session->userdata('identity');
 
@@ -313,7 +313,7 @@ class Auth extends MY_Controller
             $this->form_validation->set_rules('email', $this->lang->line('create_user_validation_email_label'), 'required|valid_email|is_unique[' . $tables['users'] . '.email]');
         }
         $this->form_validation->set_rules('phone', $this->lang->line('create_user_validation_phone_label'), 'trim');
-        $this->form_validation->set_rules('company', $this->lang->line('create_user_validation_company_label'), 'trim');
+        // $this->form_validation->set_rules('company', $this->lang->line('create_user_validation_company_label'), 'trim');
         $this->form_validation->set_rules('password', $this->lang->line('create_user_validation_password_label'), 'required|min_length[' . $this->config->item('min_password_length', 'ion_auth') . ']|max_length[' . $this->config->item('max_password_length', 'ion_auth') . ']|matches[password_confirm]');
         $this->form_validation->set_rules('password_confirm', $this->lang->line('create_user_validation_password_confirm_label'), 'required');
 
@@ -325,7 +325,7 @@ class Auth extends MY_Controller
             $additional_data = array(
                 'first_name' => $this->input->post('first_name'),
                 'last_name'  => $this->input->post('last_name'),
-                'company'    => $this->input->post('company'),
+                // 'company'    => $this->input->post('company'),
                 'phone'      => $this->input->post('phone'),
             );
         }
@@ -388,7 +388,7 @@ class Auth extends MY_Controller
                 'value' => $this->form_validation->set_value('password_confirm'),
             );
 
-            $this->_render_page('auth/create_user', $this->data);
+            $this->authrender('auth/create_user');
         }
     }
 
@@ -519,7 +519,7 @@ class Auth extends MY_Controller
             'type' => 'password'
         );
 
-        $this->_render_page('auth/edit_user', $this->data);
+        $this->authrender('auth/edit_user', $this->data);
     }
 
     public function _get_csrf_nonce()

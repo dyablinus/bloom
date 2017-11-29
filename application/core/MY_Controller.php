@@ -10,7 +10,7 @@ class MY_Controller extends CI_Controller
     public function __construct()
     {
         parent::__construct ();
-        $this->set_lang();
+        // $this->set_lang();
     }
 
     public function renderblog($view, $template = 'template/base/blog/index_blog')

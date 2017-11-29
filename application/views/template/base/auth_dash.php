@@ -23,7 +23,7 @@
    <link rel="stylesheet" href="<?= base_url("/assets/dist/css/_all-skins.min.css")?>">  
    <link rel="stylesheet" href="<?= base_url("/assets/css/bootstrap3-wysihtml5.min.css")?>">  
 
-      <script src="<?php echo base_url();?>assets/plugins/jQuery/jquery-2.2.3.min.js"></script>
+      <script src="<?php echo base_url("assets/plugins/jQuery/jquery-2.2.3.min.js")?>";></script>
 
       <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
 

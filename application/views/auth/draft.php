@@ -3,7 +3,7 @@
         <!-- small box -->
                 <div class="small-box bg-yellow">
                         <div class="inner col-xs-offset-1">
-                                <h3>Modifier un article</h3>
+                                <h3>Terminer un article</h3>
                         </div>
                 </div>
         </div>
@@ -61,8 +61,10 @@
                         <div class="modal-body" id="contentEdit">
 
 
-                                <?= form_open('edit/update/' . $rows->id); ?>
-
+                                <!-- <?= form_open('edit/create/' . $rows->id); ?> -->
+                                <?php
+                                $link=base_url('edit/create');
+                                echo form_open_multipart($link); ?>
                                 <?php
 
                                 $data_title = array(
@@ -70,6 +72,16 @@
                                         'Class'   => 'form-control',
                                         'value'   => $rows->title,
                                         'name'   => 'title'
+                                );
+
+                                $data_texte = array(
+                                        'title'  => 'texte',
+                                        'Class'   => 'form-control',
+                                        'value'   => $rows->texte,
+                                        'name'   => 'texte',
+                                        'id' => 'some-textarea',
+                                        'style' => 'styles to copy to the iframe'
+
                                 );
                                 $data_image = array(
                                         'type'  => 'file',
@@ -92,8 +104,13 @@
                                 </select>
                                 <br>
 
+                                        <?php echo form_error('file'); ?>
+                                        <?php echo form_label('Image max 2 Mo', 'userfile'); ?>
+                                        <?php echo form_upload($data_image); ?>
+
                                 <?php echo form_label('Article', 'poste'); ?>
-                                <textarea id="some-textarea" name="texte" texte="texte" class="form-control" placeholder="<?php echo $rows->texte ?>" style="styles to copy to the iframe"></textarea>
+                                <?php echo form_input($data_texte); ?>
+                                <!-- <textarea id="some-textarea" name="texte" texte="texte" class="form-control" placeholder="<?php echo $rows->texte ?>" style="styles to copy to the iframe"></textarea> -->
 
                             </div>
 
