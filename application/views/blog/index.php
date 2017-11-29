@@ -45,6 +45,9 @@
             <p> <strong>BlankTitle is</strong> an art incubator project. As a first step, our platform will offer young, innovative artists a sales and visibility space so they have more time to devote to their passion. We then have for ambition to create events (exhibitions, meetings ...) as well as to make available a workshop space.</p>
             <p>On this part of the project, you can find our blog </p>
           </div>
+        <div class="text-center">
+          <a href="<?= base_url("home/index")?>" target=_blank class="btn mt-10-pourcent" type="button" name="button"> More  informations</a> 
+        </div>
         </div>
       </div>
     </div>
@@ -66,10 +69,10 @@
     <div class="row">
       <ul class="container-filter categories-filter">
         <li> <a class="categories active" data-filter="*">All</a> </li>
-        <li> <a class="categories" data-filter=".branding">Branding</a> </li>
-        <li> <a class="categories" data-filter=".design">Design</a> </li>
-        <li> <a class="categories" data-filter=".photo">Photo</a> </li>
-        <li> <a class="categories" data-filter=".coffee">coffee</a> </li>
+        <li> <a class="categories" data-filter=".branding">Painting</a> </li>
+        <li> <a class="categories" data-filter=".design">Photo</a> </li>
+        <li> <a class="categories" data-filter=".photo">Drawing</a> </li>
+        <li> <a class="categories" data-filter=".coffee">Volume</a> </li>
       </ul>
     </div>
     <!-- End work Filter -->
@@ -184,19 +187,20 @@
       </div>
     </div>
     <div class="text-center">
-    <button class="btn" type="button" name="button"> See more </button>
-</div>
+      <button class="btn" type="button" name="button"> See more </button> 
+    </div>
   </div>
 </section>
 <!--Our Work Section End -->
-<!--Tetstimonial Section-->
+
+<!--Exhibitions Section-->
 <section id="testimonial" class="padding ptb-xs-60 light-dark"> <span class="top_arrow">
         <div class="notify setpos"> <span class="heartbit"></span> <span class="point"></span> </div>
   </span>
   <div class="container">
     <div class="row pb-30 text-center">
       <div class="col-sm-12 mb-20">
-        <h2>Exhibition</h2>
+        <h2>Exhibitions</h2>
       </div>
     </div>
     <div class="row">
@@ -230,8 +234,7 @@
                 <span class="sub-title mb-30">CEO Marketing 2</span>
                 <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been . Lorem Ipsum
                   has been . Lorem Ipsum has been Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                  Lorem Ipsum has been . Lorem Ipsum has been Lorem Ipsum is simply dummy text of the printing and industry.
-                  Lorem Ipsum has been . Lorem Ipsum has been </p>
+                  Lorem Ipsum has been . </p>
               </div>
             </div>
           </div>
@@ -249,13 +252,15 @@
                 <span class="sub-title mb-30">CEO Marketing 3</span>
                 <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been . Lorem Ipsum
                   has been . Lorem Ipsum has been Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                  Lorem Ipsum has been . Lorem Ipsum has been Lorem Ipsum is simply dummy text of the printing and industry.
-                  Lorem Ipsum has been . Lorem Ipsum has been </p>
+                  Lorem Ipsum has been . </p>
               </div>
             </div>
           </div>
         </div>
       </div>
+    <div class="text-center">
+      <a href="<?= base_url("home/index")?>" class="btn" type="button" name="button"> Archives</a> 
+    </div>
     </div>
   </div>
 </section>
@@ -326,3 +331,36 @@
 
 
 
+<div class="modal fade" id="Modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Wait !</h4>
+      </div>
+      <div class="modal-body">
+        <p>Feel free to leave us your email address if you want to be sure not to miss our website’s launch! We will keep you informed of our latest news through our newsletter. Of course, we guarantee that we will never share your address and will never send you spam. Our communications are occasional and always relevant.</p>
+        <div id="mc_embed_signup mc-form-holder">
+            <form action="https://blanktitle.us17.list-manage.com/subscribe/post?u=43d3705b55096c83e92dd5165&amp;id=e11f630225" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                <div id="mc_embed_signup_scroll">
+                    <div class="mc-field-group">
+                        <input type="email" value="" name="EMAIL" class="required email form-control modalnews" placeholder="Your email" id="mce-EMAIL">
+                    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_43d3705b55096c83e92dd5165_e11f630225" tabindex="-1" value=""></div>
+                    <div class="clear"><button type="submit" value="Subscribe" name="subscribe" id="newsmodalsend" class="button btn"><i class="fa fa-paper-plane fa-news"></i></button></div>
+                    </div>
+                      <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                    <div id="mce-responses" class="clear">
+                        <div class="response" id="mce-error-response" style="display:none"></div>
+                        <div class="response" id="mce-success-response" style="display:none"></div>
+                    </div>   
+                </div>
+            </form>
+        </div>
+        <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Skip</button>
+      </div>
+    </div>
+  </div>
+</div>

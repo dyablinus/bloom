@@ -44,7 +44,7 @@
     <!-- Site Wrapper -->
     <script src="<?php echo base_url("assets/js/jquery.min.js") ?>"></script>
     <!-- bootstrap Js -->
-    <script src="<?php echo base_url("assets/js/bootstrap.min.js") ?>"></script>
+     <script src="<?= base_url("/node_modules/bootstrap/dist/js/bootstrap.min.js") ?>"></script>
     <!-- Parallax Js -->
     <script src="<?php echo base_url("assets/js/jquery.stellar.min.js") ?>"></script>
     <!-- masonry,isotope Effect Js -->
@@ -67,6 +67,13 @@
     <script src="<?php echo base_url("assets/js/mail.js") ?>"></script>
     <!--custom  Map Js -->
     <script src="<?php echo base_url("assets/js/map.js") ?>"></script>
+    <script type="text/javascript">
+        $( document ).ready(function() {
+        $('#Modal').modal('show');
+        });
+    </script>
+ 
+
 </body>
 
 </html>

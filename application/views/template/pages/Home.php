@@ -226,8 +226,7 @@
                             <div class="title-box">
                                 <h2>Newsletter</h2>
                             </div>
-                            <p>Feel free to leave us your email address if you want to be sure not to miss our website’s launch! We will keep you informed of our latest news through our newsletter.
-Of course, we guarantee that we will never share your address and will never send you spam. Our communications are occasional and always relevant.</p>
+                            <p>Feel free to leave us your email address if you want to be sure not to miss our website’s launch! We will keep you informed of our latest news through our newsletter. Of course, we guarantee that we will never share your address and will never send you spam. Our communications are occasional and always relevant.</p>
                             
                             <!-- Start mailchimp form -->
                              <!-- <div class="mc-form-holder">
