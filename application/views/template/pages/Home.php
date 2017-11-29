@@ -5,12 +5,12 @@
             <!-- <div id="menu_langue" class="col-xs-3 col-xs-offset-9"> -->
 
             <!-- <div id="menu_langue" class="col-xs-3 col-xs-offset-9"> -->
-
+<!--
                 <div class="lang_en lang">
                     <a class="btn_nav_lang_fr" href=<?php echo base_url("/langchange/change/fr") ?>>FR</a>
                     <a class="btn_nav_lang_en" href=<?php echo base_url("/langchange/change/en") ?>>EN</a>
                 </div>
-
+-->
             <div class="content">
                 <div class="container"> 
                     <!-- coming-soon header text start -->
@@ -80,7 +80,7 @@
                             
                             <div class="col-sm-12">
                                 <div class="row">
-                                    <div class="col-md-12">
+                                    <div class="col-sm-12">
                                         <div class="about-wrap">
                                             <div class="icon-holder">
                                                 <i class="fa fa-book"></i>
@@ -93,7 +93,7 @@
                                             </div><!-- end text-box -->
                                         </div><!-- end about-wrap -->
                                     </div><!-- end col -->
-                                    <div class="col-md-12">
+                                    <div class="col-sm-12">
                                         <div class="about-wrap">
                                             <div class="icon-holder">
                                                 <i class="fa fa-address-book-o"></i>
@@ -105,7 +105,7 @@
                                             </div><!-- end text-box -->
                                         </div><!-- end about-wrap -->
                                     </div><!-- end col -->
-                                    <div class="col-md-6">
+                                    <div class="col-sm-6">
                                         <div class="about-wrap">
                                             <div class="text-box">
                                                 <div class="img-box">
@@ -118,7 +118,7 @@
                                             </div><!-- end text-box -->
                                         </div><!-- end about-wrap -->
                                     </div><!-- end col -->
-                                    <div class="col-md-6">
+                                    <div class="col-sm-6">
                                         <div class="about-wrap">
                                             <div class="text-box">
                                                 <div class="img-box">
@@ -154,21 +154,21 @@
                     <!-- Start Services box -->
                     <div class="Services-box">
                         <div class="row">
-                            <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4">
+                            <div class="col-xs-6 col-sm-4 col-sm-4 col-lg-4">
                                 <div class="service-item">
                                     <i class="fa fa-paint-brush fa-3x"></i>                                                                 
                                     <h3>Simplicity</h3>
                                     <p>Do not worry about promotion anymore. You can concentrate on your creations, we’ll take care of the rest!</p>
                                 </div>
                             </div>
-                            <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4">
+                            <div class="col-xs-6 col-sm-4 col-sm-4 col-lg-4">
                                 <div class="service-item">
                                     <i class="fa fa-bullhorn fa-3x"></i>                                
                                     <h3>Visibility</h3>
                                     <p>Thanks to BlankTitle, you will benefit from a free platform to diffuse the works and events of your choice.</p>
                                 </div>
                             </div>
-                            <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4 margin-agencement">
+                            <div class="col-xs-6 col-sm-4 col-sm-4 col-lg-4 margin-agencement">
                                 <div class="service-item ajust">
                                     <i class="fa fa-usd fa-3x"></i>
                                     <h3>Gratification</h3>
@@ -185,21 +185,21 @@
                     <div class="Services-box">
                         <div class="row">                        
                             <!-- Partie acquereur -->
-                            <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4 ">
+                            <div class="col-xs-6 col-sm-4 col-sm-4 col-lg-4 ">
                                 <div class="service-item ajust">
                                     <i class="fa fa-search fa-3x"></i>
                                     <h3>Discover</h3>
                                     <p>In a few clicks, find the artists of tomorrow in a complete and regularly updated gallery.</p>
                                 </div>
                             </div>
-                            <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4">
+                            <div class="col-xs-6 col-sm-4 col-sm-4 col-lg-4">
                                 <div class="service-item">
                                     <i class="fa fa-balance-scale fa-3x"></i>
                                     <h3>Choice</h3>
                                     <p>Honest art lover or initiated esthete, you will always find an option that will suit you.</p>
                                 </div>
                             </div>
-                            <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4">
+                            <div class="col-xs-6 col-sm-4 col-sm-4 col-lg-4">
                                 <div class="service-item">
                                     <i class="fa fa-shopping-cart fa-3x"></i>
                                     <h3>Buy</h3>
@@ -278,7 +278,7 @@ Of course, we guarantee that we will never share your address and will never sen
             <div class="content">
                 <div class="container">
                     <div class="row">
-                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                        <div class="col-xs-12 col-sm-12 col-sm-12 col-lg-12">
                             <div class="title-box">
                                 <h2>Contact</h2>
                             </div>

@@ -36,7 +36,7 @@
     </div>
     <div class="row">
       <div class="col-sm-12 col-md-6 mb-sm-30">
-        <figure class="shadow_box img_box"> <img src="<?php echo base_url("assets/images/blog/about_img.jpg ")?>" alt=""> </figure>
+        <figure class="shadow_box img_box"> <img src="<?php echo base_url("assets/images/blog/museum-back.jpg ")?>" alt=""> </figure>
       </div>
       <div class="col-sm-12 col-md-6 ">
         <div class="item">
@@ -87,7 +87,7 @@
         </div>
       </div> -->
       <div class="nf-item grid-sizer photo spacing">
-        <div class="item-box"> <img alt="1" src="assets/images/blog/portfolio3/2.jpg" class="item-container">
+        <div class="item-box"> <img alt="1" src="assets/images/blog/portfolio3/soor_focus.jpg" class="item-container">
           <a href="assets/images/blog/portfolio3/2.jpg"
             class="fancylight" data-fancybox-group="light">
             <div class="link-zoom">
@@ -183,6 +183,9 @@
         </div>
       </div>
     </div>
+    <div class="text-center">
+    <button class="btn" type="button" name="button"> See more </button>
+</div>
   </div>
 </section>
 <!--Our Work Section End -->
@@ -201,18 +204,15 @@
         <div class="item">
           <div class="col-sm-4 col-sm-offset-1 z-index">
             <div class="text-block block-pull-r float-right">
-              <figure class="shadow_box"> <img src="<?php echo base_url("assets/images/blog/img.jpg ")?>" alt=""> </figure>
+              <figure class="shadow_box"> <img src="<?php echo base_url("assets/images/blog/roots_exhib.jpg ")?>" alt=""> </figure>
             </div>
           </div>
           <div class="col-sm-6">
             <div class="testimonial">
               <div class="block-line dark-color">
-                <h3 class="color">Branding And </h3>
-                <span class="sub-title mb-30">CEO Marketing 1</span>
-                <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been . Lorem Ipsum
-                  has been . Lorem Ipsum has been Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                  Lorem Ipsum has been . Lorem Ipsum has been Lorem Ipsum is simply dummy text of the printing and industry.
-                  Lorem Ipsum has been . Lorem Ipsum has been </p>
+                <h3 class="color">Soor </h3>
+                <span class="sub-title mb-30">Roots</span>
+                <p> Simon Roobaert X Ana Diaz <br> 17 Nov-17 Dec <br> 27 Gallerie du Roi <br> 1000 Bxl</p>
               </div>
             </div>
           </div>
@@ -286,25 +286,25 @@
           <form class="mt-45 pb-60" id="contact ">
             <!-- IF MAIL SENT SUCCESSFULLY -->
             <div id="success">
-              <div role="alert" class="alert alert-success"> <strong>Thanks</strong> for our interessed. Your message has been sent. </div>
+              <div role="alert" class="alert alert-success"> <strong>Thanks</strong> for your interest. Your message has been sent. </div>
             </div>
             <!-- END IF MAIL SENT SUCCESSFULLY -->
             <div class="row">
-              <div class="col-sm-6">
+              <div class="col-sm-12">
                 <div class="form-field">
-                  <input class="input-sm form-full" id="name" type="text" name="form-name" placeholder="Your Name">
-                </div>
-              </div>
-              <div class="col-sm-6">
-                <div class="form-field">
-                  <input class="input-sm form-full" id="email" type="text" name="form-email" placeholder="Email">
+                  <input class="input-sm form-full" id="fname" type="text" name="fname" placeholder="Your Name">
                 </div>
               </div>
               <div class="col-sm-12">
                 <div class="form-field">
-                  <input class="input-sm form-full" id="sub" type="text" name="form-subject" placeholder="Subject">
+                  <input class="input-sm form-full" id="email" type="text" name="email" placeholder="Your Email">
                 </div>
               </div>
+              <!-- <div class="col-sm-12">
+                <div class="form-field">
+                  <input class="input-sm form-full" id="sub" type="text" name="form-subject" placeholder="Subject">
+                </div>
+              </div> -->
               <div class="col-sm-12">
                 <div class="form-field">
                   <textarea class="form-full" id="message" rows="7" name="form-message" placeholder="Your Message"></textarea>
