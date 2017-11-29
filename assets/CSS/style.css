@@ -27,11 +27,7 @@ body {
 }
 /* End Lang */
 
-/*jean new*/
-.resize{
-    padding-right:300px;
-}
-/*jean end*/
+
 /*
 |----------------------------------------------------------------------------
 	3. COMMON CSS
@@ -858,10 +854,21 @@ form .text-danger {
 	12. Responsive
 |----------------------------------------------------------------------------
 */
+        /*jean new*/
+        .resize{
+            padding-right:25%;
+            }
+        /*jean end*/
+
 @media screen and (max-width: 991px) {
 	.service-item h3 {
 		font-size: 24px;
-	}
+    }
+            /*jean new*/
+            .resize{
+                padding-right:0px;
+                }
+            /*jean end*/
 }
 @media screen and (max-width: 767px) {
 	.overlay .closebtn {
@@ -886,12 +893,12 @@ form .text-danger {
 	}
 	.service-item h3 {
 		font-size: 28px;
-	}
+    }
 }
 @media screen and (max-width: 667px) {
 	.btn.btn-custom {
 		margin: 0 5px 10px;
-	}
+    }
 }	
 @media screen and (max-width: 568px) {			
 	.countdown-section:first-child::before, .countdown-section:last-child::before {

@@ -10,11 +10,11 @@
         <div class="container">
           <div class="row">
             <div class="col-md-12">
-              <div class="header-text text-center">
-                <h1 class="typewrite" data-period="2000" data-type='[ "Hi, I am Designer.", "I am Developer.", "I am creative.", "I am Expert" ]'>
+              <!-- <div class="header-text text-center">
+                <h1 class="typewrite" data-period="2000" data-type='[ "Hi, I am artist.", "I am art lover.", "We are blanktilte.", "BlanktiLTe ? What ?" ]'>
                 <span class="wrap"></span> </h1>
 
-              </div>
+              </div> -->
             </div>
           </div>
         </div>
@@ -36,17 +36,14 @@
     </div>
     <div class="row">
       <div class="col-sm-12 col-md-6 mb-sm-30">
-        <figure class="shadow_box img_box"> <img src="<?php echo base_url("assets/images/blog/about_img.jpg ")?>" alt=""> </figure>
+        <figure class="shadow_box img_box"> <img src="<?php echo base_url("assets/images/blog/museum-back.jpg ")?>" alt=""> </figure>
       </div>
       <div class="col-sm-12 col-md-6 ">
         <div class="item">
           <div class="dark-color">
-          <h5 class="color">Lorem Ipsum is</h5>
-            <p> simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
-              standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to
-              make a type specimen book. It has survived not only five centuries</p>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
-              standard </p>
+          <!-- <h5 class="color">Lorem Ipsum is</h5> -->
+            <p> <strong>BlankTitle is</strong> an art incubator project. As a first step, our platform will offer young, innovative artists a sales and visibility space so they have more time to devote to their passion. We then have for ambition to create events (exhibitions, meetings ...) as well as to make available a workshop space.</p>
+            <p>On this part of the project, you can find our blog </p>
           </div>
         </div>
       </div>
@@ -77,7 +74,7 @@
     </div>
     <!-- End work Filter -->
     <div class="row container-masonry nf-col-4">
-      <div class="nf-item w2x branding coffee spacing">
+      <!-- <div class="nf-item w2x branding coffee spacing">
         <div class="item-box"> <img alt="1" src="assets/images/blog/portfolio3/1.jpg" class="item-container">
           <a href="assets/images/blog/portfolio3/1.jpg"
             class="fancylight" data-fancybox-group="light">
@@ -88,15 +85,15 @@
             </div>
           </a>
         </div>
-      </div>
+      </div> -->
       <div class="nf-item grid-sizer photo spacing">
-        <div class="item-box"> <img alt="1" src="assets/images/blog/portfolio3/2.jpg" class="item-container">
+        <div class="item-box"> <img alt="1" src="assets/images/blog/portfolio3/soor_focus.jpg" class="item-container">
           <a href="assets/images/blog/portfolio3/2.jpg"
             class="fancylight" data-fancybox-group="light">
             <div class="link-zoom">
               <div class="link-zoom__text">
                 <h4>Photo</h4>
-                <span class="project_status">Work Is Done</span> <span class="project_date">07.08.2017</span> </div>
+                <span class="project_status">Work Is Done</span> <span class="project_date">08.08.2017</span> </div>
             </div>
           </a>
         </div>
@@ -108,7 +105,7 @@
             <div class="link-zoom">
               <div class="link-zoom__text">
                 <h4>photo</h4>
-                <span class="project_status">Work Is Done</span> <span class="project_date">07.08.2017</span> </div>
+                <span class="project_status">Work Is Done</span> <span class="project_date">09.08.2017</span> </div>
             </div>
           </a>
         </div>
@@ -120,7 +117,7 @@
             <div class="link-zoom">
               <div class="link-zoom__text">
                 <h4>Design</h4>
-                <span class="project_status">Work Is Done</span> <span class="project_date">07.08.2017</span> </div>
+                <span class="project_status">Work Is Done</span> <span class="project_date">10.08.2017</span> </div>
             </div>
           </a>
         </div>
@@ -132,12 +129,63 @@
             <div class="link-zoom">
               <div class="link-zoom__text">
                 <h4>Design</h4>
-                <span class="project_status">Work Is Done</span> <span class="project_date">07.08.2017</span> </div>
+                <span class="project_status">Work Is Done</span> <span class="project_date">11.08.2017</span> </div>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="nf-item grid-sizer photo spacing">
+        <div class="item-box"> <img alt="1" src="assets/images/blog/portfolio3/2.jpg" class="item-container">
+          <a href="assets/images/blog/portfolio3/2.jpg"
+            class="fancylight" data-fancybox-group="light">
+            <div class="link-zoom">
+              <div class="link-zoom__text">
+                <h4>Photo</h4>
+                <span class="project_status">Work Is Done</span> <span class="project_date">08.08.2017</span> </div>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="nf-item branding photo spacing">
+        <div class="item-box"> <img alt="1" src="assets/images/blog/portfolio3/3.jpg" class="item-container">
+          <a href="assets/images/blog/portfolio3/3.jpg"
+            class="fancylight" data-fancybox-group="light">
+            <div class="link-zoom">
+              <div class="link-zoom__text">
+                <h4>photo</h4>
+                <span class="project_status">Work Is Done</span> <span class="project_date">09.08.2017</span> </div>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="nf-item design spacing">
+        <div class="item-box"> <img alt="1" src="assets/images/blog/portfolio3/4.jpg" class="item-container">
+          <a href="assets/images/blog/portfolio3/4.jpg"
+            class="fancylight" data-fancybox-group="light">
+            <div class="link-zoom">
+              <div class="link-zoom__text">
+                <h4>Design</h4>
+                <span class="project_status">Work Is Done</span> <span class="project_date">10.08.2017</span> </div>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="nf-item photo spacing">
+        <div class="item-box"> <img alt="1" src="assets/images/blog/portfolio3/5.jpg" class="item-container">
+          <a href="assets/images/blog/portfolio3/5.jpg"
+            class="fancylight" data-fancybox-group="light">
+            <div class="link-zoom">
+              <div class="link-zoom__text">
+                <h4>Design</h4>
+                <span class="project_status">Work Is Done</span> <span class="project_date">11.08.2017</span> </div>
             </div>
           </a>
         </div>
       </div>
     </div>
+    <div class="text-center">
+    <button class="btn" type="button" name="button"> See more </button>
+</div>
   </div>
 </section>
 <!--Our Work Section End -->
@@ -156,18 +204,15 @@
         <div class="item">
           <div class="col-sm-4 col-sm-offset-1 z-index">
             <div class="text-block block-pull-r float-right">
-              <figure class="shadow_box"> <img src="<?php echo base_url("assets/images/blog/img.jpg ")?>" alt=""> </figure>
+              <figure class="shadow_box"> <img src="<?php echo base_url("assets/images/blog/roots_exhib.jpg ")?>" alt=""> </figure>
             </div>
           </div>
           <div class="col-sm-6">
             <div class="testimonial">
               <div class="block-line dark-color">
-                <h3 class="color">Branding And </h3>
-                <span class="sub-title mb-30">CEO Marketing</span>
-                <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been . Lorem Ipsum
-                  has been . Lorem Ipsum has been Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                  Lorem Ipsum has been . Lorem Ipsum has been Lorem Ipsum is simply dummy text of the printing and industry.
-                  Lorem Ipsum has been . Lorem Ipsum has been </p>
+                <h3 class="color">Soor </h3>
+                <span class="sub-title mb-30">Roots</span>
+                <p> Simon Roobaert X Ana Diaz <br> 17 Nov-17 Dec <br> 27 Gallerie du Roi <br> 1000 Bxl</p>
               </div>
             </div>
           </div>
@@ -182,7 +227,7 @@
             <div class="testimonial">
               <div class="block-line dark-color">
                 <h3 class="color">Branding and </h3>
-                <span class="sub-title mb-30">CEO Marketing</span>
+                <span class="sub-title mb-30">CEO Marketing 2</span>
                 <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been . Lorem Ipsum
                   has been . Lorem Ipsum has been Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                   Lorem Ipsum has been . Lorem Ipsum has been Lorem Ipsum is simply dummy text of the printing and industry.
@@ -201,7 +246,7 @@
             <div class="testimonial">
               <div class="block-line dark-color">
                 <h3 class="color">Branding And </h3>
-                <span class="sub-title mb-30">CEO Marketing</span>
+                <span class="sub-title mb-30">CEO Marketing 3</span>
                 <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been . Lorem Ipsum
                   has been . Lorem Ipsum has been Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                   Lorem Ipsum has been . Lorem Ipsum has been Lorem Ipsum is simply dummy text of the printing and industry.
@@ -241,25 +286,25 @@
           <form class="mt-45 pb-60" id="contact ">
             <!-- IF MAIL SENT SUCCESSFULLY -->
             <div id="success">
-              <div role="alert" class="alert alert-success"> <strong>Thanks</strong> for our interessed. Your message has been sent. </div>
+              <div role="alert" class="alert alert-success"> <strong>Thanks</strong> for your interest. Your message has been sent. </div>
             </div>
             <!-- END IF MAIL SENT SUCCESSFULLY -->
             <div class="row">
-              <div class="col-sm-6">
+              <div class="col-sm-12">
                 <div class="form-field">
-                  <input class="input-sm form-full" id="name" type="text" name="form-name" placeholder="Your Name">
-                </div>
-              </div>
-              <div class="col-sm-6">
-                <div class="form-field">
-                  <input class="input-sm form-full" id="email" type="text" name="form-email" placeholder="Email">
+                  <input class="input-sm form-full" id="fname" type="text" name="fname" placeholder="Your Name">
                 </div>
               </div>
               <div class="col-sm-12">
                 <div class="form-field">
-                  <input class="input-sm form-full" id="sub" type="text" name="form-subject" placeholder="Subject">
+                  <input class="input-sm form-full" id="email" type="text" name="email" placeholder="Your Email">
                 </div>
               </div>
+              <!-- <div class="col-sm-12">
+                <div class="form-field">
+                  <input class="input-sm form-full" id="sub" type="text" name="form-subject" placeholder="Subject">
+                </div>
+              </div> -->
               <div class="col-sm-12">
                 <div class="form-field">
                   <textarea class="form-full" id="message" rows="7" name="form-message" placeholder="Your Message"></textarea>
