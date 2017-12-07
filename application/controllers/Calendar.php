@@ -34,17 +34,16 @@ class Calendar extends MY_Controller
         $name = $_FILES["userfile"]["name"];
         $ext = end((explode(".", $name))); # extra () to prevent notice
 
-        $config['upload_path']   = './uploads/blog/files';
+        $config['upload_path']   = './uploads/calendar/files';
         $config['allowed_types'] = '|jpg|png|jpeg|PNG|JPEG|JPG|pdf';
         $config['max_size']      = 0;
 
-        $config['upload_path']   = './uploads/blog/files';
+        $config['upload_path']   = './uploads/calendar/files';
         $config['allowed_types'] = '|jpg|png|jpeg|PNG|JPEG|JPG|pdf';
         $config['max_size']      = 0;
 
         $this->load->library('upload', $config);
 
-        $this->form_validation->set_rules('valeur', 'value', 'required');
         $this->form_validation->set_rules('title', 'Title', 'required|min_length[2]');
         $this->form_validation->set_rules('texte', 'texte', 'required|min_length[2]');
 
@@ -60,21 +59,51 @@ class Calendar extends MY_Controller
                     $file_data = $file;
                 }
 
-                $this->db->insert('posts', array(
+            if(!empty($start_date)) {
+                $sd = DateTime::createFromFormat('d/m/Y H:i', $start_date);
+
+            $start_date = formatDate ( $start_date, '/', '-', true, false );
+            $sd = new DateTime($start_date);
+            $start_date = $sd->format('Y-m-d H:i:s');
+
+                $start_date_timestamp = $sd->getTimestamp();
+            } else {
+                $start_date = date("Y-m-d H:i:s", time());
+                $start_date_timestamp = time();
+            }
+
+            if(!empty($end_date)) {
+            
+                
+            $end_date = formatDate ( $end_date, '/', '-', true, true );
+            $ed = new DateTime($end_date);
+            
+            $end_date = $ed->format('Y-m-d H:i:s');
+            
+            $end_date_timestamp = $ed->getTimestamp();
+
+            } else {
+                $end_date = date('Y-m-d H:i:s', time());
+                $end_date_timestamp = time();
+            }
+
+
+                $this->db->insert('event', array(
                     // So you can work with the values, like:
                     'title' => $this->input->post('title', true), // TRUE is XSS protection
                     'texte' => $this->input->post('texte', true),
-                    'date' => $this->input->post('date', true),
+                    'start_date' => $start_date,
+                    'end_date' => $end_date,
                     'file_name' => $file_data['file_name'],
                 ));
 
                 $this->session->set_flashdata('success', "<div class='alert alert-success' style='font-size: 20px;'>Succès.</div>");
-                redirect('edit');
+                redirect('calendar');
             }
         } else {
             $this->session->set_flashdata('error', "<div class='alert alert-danger' style='font-size: 20px;'>Veuillez remplir toutes les champs.</div>");
 
-            redirect('edit');
+            redirect('calendar');
         }
     }
 

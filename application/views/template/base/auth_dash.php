@@ -69,7 +69,8 @@
  <script src="<?= base_url("/assets/js/bootstrap3-wysihtml5.all.min") ?>"></script>
  <script src="<?= base_url("/assets/js/wysihtml5x-toolbar.min.js") ?>"></script>
  <script src='<?php echo base_url();?>assets/plugins/timepicker/dist/jquery-ui-timepicker-addon.js'></script>
-
+ <script src='<?php echo base_url();?>assets/plugins/timepicker/dist/i18n/jquery-ui-timepicker-addon-i18n.min.js'></script>
+ <script src='<?php echo base_url();?>assets/plugins/timepicker/dist/jquery-ui-sliderAccess.js'></script> 
 <script>
 $('#some-textarea').wysihtml5({
     "font-styles": true, //Font styling, e.g. h1, h2, etc. Default true

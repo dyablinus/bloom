@@ -19,28 +19,28 @@
                 
                         <!-- defini vers quelle methode envoyer le form -->
                         <?php
-                        $link=base_url('artiste/create');
+                        $link=base_url('calendar/create');
                         echo form_open_multipart($link); ?>
                         <?php
 
-                        $data_name = array(
-                        'name'  => 'name',
+                        $data_title = array(
+                        'title'  => 'title',
                         'Class'   => 'form-control',
-                        'name'   => 'name'
+                        'name'   => 'title'
                         );
 
-                        $data_date = array(
-                        'date'  => 'date',
+                        $data_start_date = array(
+                        'start_date'  => 'start_date',
                         'Class'   => 'form-control',
                         'id'  => 'datepicker',
-                        'name'   => 'date'
+                        'name'   => 'start_date'
                         );
 
                         $data_date_end = array(
-                        'date'  => 'date',
+                        'end_date'  => 'end_date',
                         'Class'   => 'form-control',
                         'id'  => 'datepicker2',
-                        'name'   => 'date'
+                        'name'   => 'end_date'
                         );
 
                         $data_image = array(
@@ -52,13 +52,13 @@
                         ?>
 
 
-                        <?php echo form_error('name'); ?>
-                        <?php echo form_label('Event name', 'name'); ?>
-                        <?php echo form_input($data_name); ?>
+                        <?php echo form_error('title'); ?>
+                        <?php echo form_label('Event name', 'title'); ?>
+                        <?php echo form_input($data_title); ?>
 
                         <?php echo form_error('start_date'); ?>
                         <?php echo form_label('Start date', 'start_date'); ?>
-                        <?php echo form_input($data_date); ?>
+                        <?php echo form_input($data_start_date); ?>
 
 
                 </div>        
