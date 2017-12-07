@@ -84,6 +84,12 @@
         </li>
 
         <li style="font-size:20px">
+          <a href="<?= base_url("/calendar")?>">
+            <i class="fa fa-calendar-plus-o"></i> <span>Add event</span>
+          </a>
+        </li>
+
+        <li style="font-size:20px">
           <a href="<?= base_url("/auth/create_user")?>">
             <i class="fa fa-user-plus"></i> <span>Create User</span>
           </a>
