@@ -345,7 +345,7 @@
   <div class="container">
     <div class="row pb-30 text-center">
       <div class="col-sm-12 mb-20">
-        <h2>Exhibitions</h2>
+        <h2>Articles</h2>
       </div>
     </div>
     <div class="row">

@@ -16,6 +16,9 @@
   
   <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
 
+    <!-- Date Picker -->
+  <link rel="stylesheet" href="<?= base_url("/assets/plugins/datepicker/datepicker3.css")?>">
+
   <!-- Theme style -->
    <link rel="stylesheet" href="<?= base_url("/assets/dist/css/AdminLTE.min.css")?>"> 
   <!-- AdminLTE Skins. -->
@@ -65,6 +68,9 @@
  <script src="<?= base_url("/node_modules/bootstrap/dist/js/bootstrap.min.js") ?>"></script>
  <script src="<?= base_url("/assets/js/bootstrap3-wysihtml5.all.min") ?>"></script>
  <script src="<?= base_url("/assets/js/wysihtml5x-toolbar.min.js") ?>"></script>
+ <script src='<?php echo base_url();?>assets/plugins/timepicker/dist/jquery-ui-timepicker-addon.js'></script>
+ <script src='<?php echo base_url();?>assets/plugins/timepicker/dist/i18n/jquery-ui-timepicker-addon-i18n.min.js'></script>
+ <script src='<?php echo base_url();?>assets/plugins/timepicker/dist/jquery-ui-sliderAccess.js'></script> 
 <script>
 $('#some-textarea').wysihtml5({
     "font-styles": true, //Font styling, e.g. h1, h2, etc. Default true
