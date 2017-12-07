@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="<?php echo base_url("assets/css/owl.carousel.min.css") ?>">
     <link rel="stylesheet" href="<?php echo base_url("assets/css/animate.css") ?>">
     <link rel="stylesheet" href="<?php echo base_url("assets/css/blog.css") ?>">
+    <link rel="stylesheet" href="<?= base_url("assets/css/font-awesome.min.css") ?>">
 </head>
 
 <body>

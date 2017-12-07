@@ -192,8 +192,153 @@
   </div>
 </section>
 <!--Our Work Section End -->
+<!-- Calendar start -->
+<section id="work" class="padding ptb-xs-60 dark_bg"> <span class="top_arrow">
+        <div class="notify setpos"> <span class="heartbit"></span> <span class="point"></span> </div>
+  </span>
+  <div class="container">
+    <div class="row pb-30 text-center">
+      <div class="col-sm-12 mb-20">
+        <h2>Exhibitions</h2>
+      </div>
+    </div>
+    <!-- work Filter -->
+    <div class="row">
+      <ul class="container-filter categories-filter">
+        <li> <a class="categories active" data-filter=".jan">January</a> </li>
+        <li> <a class="categories" data-filter=".feb">February</a> </li>
+        <li> <a class="categories" data-filter=".mar">March</a> </li>
+        <li> <a class="categories" data-filter=".apr">April</a> </li>
+        <li> <a class="categories" data-filter=".mai">Mai</a> </li>
+        <li> <a class="categories" data-filter="jun">June</a> </li>
+        <li> <a class="categories" data-filter=".jul">Jully</a> </li>
+        <li> <a class="categories" data-filter=".aug">August</a> </li>
+        <li> <a class="categories" data-filter=".sep">September</a> </li>
+        <li> <a class="categories" data-filter=".oct">October</a> </li>
+        <li> <a class="categories" data-filter=".nov">November</a> </li>
+        <li> <a class="categories" data-filter=".dec">December</a> </li>
+      </ul>
+    </div>
+<div class="row container-masonry nf-col-4">
+      <div class="nf-item w2x branding coffee spacing">
+        <div class="item-box"> <img alt="1" src="assets/images/blog/portfolio3/1.jpg" class="item-container">
+          <a href="assets/images/blog/portfolio3/1.jpg"
+            class="fancylight" data-fancybox-group="light">
+            <div class="link-zoom">
+              <div class="link-zoom__text">
+                <h4>Soor</h4>
+                <span class="project_status">Soor.com</span> <span class="project_date">17.11.2017</span> </div>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="nf-item grid-sizer photo spacing">
+        <div class="item-box"> <img alt="1" src="assets/images/blog/portfolio3/soor_focus.jpg" class="item-container">
+          <a href="assets/images/blog/portfolio3/2.jpg"
+            class="fancylight" data-fancybox-group="light">
+            <div class="link-zoom">
+              <div class="link-zoom__text">
+                <h4>Photo</h4>
+                <span class="project_status">Work Is Done</span> <span class="project_date">08.08.2017</span> </div>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="nf-item branding photo spacing">
+        <div class="item-box"> <img alt="1" src="assets/images/blog/portfolio3/3.jpg" class="item-container">
+          <a href="assets/images/blog/portfolio3/3.jpg"
+            class="fancylight" data-fancybox-group="light">
+            <div class="link-zoom">
+              <div class="link-zoom__text">
+                <h4>photo</h4>
+                <span class="project_status">Work Is Done</span> <span class="project_date">09.08.2017</span> </div>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="nf-item design spacing">
+        <div class="item-box"> <img alt="1" src="assets/images/blog/portfolio3/4.jpg" class="item-container">
+          <a href="assets/images/blog/portfolio3/4.jpg"
+            class="fancylight" data-fancybox-group="light">
+            <div class="link-zoom">
+              <div class="link-zoom__text">
+                <h4>Design</h4>
+                <span class="project_status">Work Is Done</span> <span class="project_date">10.08.2017</span> </div>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="nf-item photo spacing">
+        <div class="item-box"> <img alt="1" src="assets/images/blog/portfolio3/5.jpg" class="item-container">
+          <a href="assets/images/blog/portfolio3/5.jpg"
+            class="fancylight" data-fancybox-group="light">
+            <div class="link-zoom">
+              <div class="link-zoom__text">
+                <h4>Design</h4>
+                <span class="project_status">Work Is Done</span> <span class="project_date">11.08.2017</span> </div>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="nf-item grid-sizer photo spacing">
+        <div class="item-box"> <img alt="1" src="assets/images/blog/portfolio3/2.jpg" class="item-container">
+          <a href="assets/images/blog/portfolio3/2.jpg"
+            class="fancylight" data-fancybox-group="light">
+            <div class="link-zoom">
+              <div class="link-zoom__text">
+                <h4>Photo</h4>
+                <span class="project_status">Work Is Done</span> <span class="project_date">08.08.2017</span> </div>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="nf-item branding photo spacing">
+        <div class="item-box"> <img alt="1" src="assets/images/blog/portfolio3/3.jpg" class="item-container">
+          <a href="assets/images/blog/portfolio3/3.jpg"
+            class="fancylight" data-fancybox-group="light">
+            <div class="link-zoom">
+              <div class="link-zoom__text">
+                <h4>photo</h4>
+                <span class="project_status">Work Is Done</span> <span class="project_date">09.08.2017</span> </div>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="nf-item design spacing">
+        <div class="item-box"> <img alt="1" src="assets/images/blog/portfolio3/4.jpg" class="item-container">
+          <a href="assets/images/blog/portfolio3/4.jpg"
+            class="fancylight" data-fancybox-group="light">
+            <div class="link-zoom">
+              <div class="link-zoom__text">
+                <h4>Design</h4>
+                <span class="project_status">Work Is Done</span> <span class="project_date">10.08.2017</span> </div>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="nf-item photo spacing">
+        <div class="item-box"> <img alt="1" src="assets/images/blog/portfolio3/5.jpg" class="item-container">
+          <a href="assets/images/blog/portfolio3/5.jpg"
+            class="fancylight" data-fancybox-group="light">
+            <div class="link-zoom">
+              <div class="link-zoom__text">
+                <h4>Design</h4>
+                <span class="project_status">Work Is Done</span> <span class="project_date">11.08.2017</span> </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="text-center">
+      <button class="btn" type="button" name="button"> See more </button> 
+    </div>
+  </div>
 
-<!--Exhibitions Section-->
+
+
+<!-- Calendar End -->
+
+<!--Exhibitions Section
 <section id="testimonial" class="padding ptb-xs-60 light-dark"> <span class="top_arrow">
         <div class="notify setpos"> <span class="heartbit"></span> <span class="point"></span> </div>
   </span>
@@ -258,13 +403,13 @@
           </div>
         </div>
       </div>
-    <div class="text-center">
+    <div class="text-center qck-margintop">
       <a href="<?= base_url("home/index")?>" class="btn" type="button" name="button"> Archives</a> 
     </div>
     </div>
   </div>
 </section>
-<!--Tetstimonial Section End-->
+Tetstimonial Section End-->
 <!--Contect Section Start-->
 <section id="contact-section"> <span class="top_arrow">
   <div class="notify setpos"> <span class="heartbit"></span> <span class="point"></span> </div>
@@ -343,10 +488,10 @@
         <div id="mc_embed_signup mc-form-holder">
             <form action="https://blanktitle.us17.list-manage.com/subscribe/post?u=43d3705b55096c83e92dd5165&amp;id=e11f630225" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
                 <div id="mc_embed_signup_scroll">
-                    <div class="mc-field-group">
-                        <input type="email" value="" name="EMAIL" class="required email form-control modalnews" placeholder="Your email" id="mce-EMAIL">
+                    <div class="mc-field-group row rowpadding">
+                        <input type="email" value="" name="EMAIL" class="required email form-control modalnews col-md-8" placeholder="Your email" id="mce-EMAIL">
                     <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_43d3705b55096c83e92dd5165_e11f630225" tabindex="-1" value=""></div>
-                    <div class="clear"><button type="submit" value="Subscribe" name="subscribe" id="newsmodalsend" class="button btn"><i class="fa fa-paper-plane fa-news"></i></button></div>
+                    <div class="clear modalign col-md-4"><button type="submit" value="Subscribe" name="subscribe" id="newsmodalsend" class="button btn"><i class="fa fa-paper-plane fa-news"></i></button></div>
                     </div>
                       <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
                     <div id="mce-responses" class="clear">
@@ -358,9 +503,9 @@
         </div>
         <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
       </div>
-      <div class="modal-footer">
+      <!-- <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Skip</button>
-      </div>
+      </div> -->
     </div>
   </div>
 </div>

@@ -1227,6 +1227,8 @@ img{
 	position: relative;
 	overflow: hidden;
 	display: block;
+	min-height:340px;
+	min-width:240px;
 }
 
 .item-box a {
@@ -2210,6 +2212,9 @@ display: inline-block;
 }
 .modalnews{
 	width: 80%;
+	border-radius:4px 0 0 4px;
+	display: inline-block;
+	border-color:#d96b68;
 }
 #newsmodalsend{
 	background-color: #d96b68;
@@ -2229,4 +2234,15 @@ display: inline-block;
 .fa-news{
 	display: inline-block;
 	font: normal normal normal 14px/1 FontAwesome;
+}
+.modalign{
+	display:inline-block;
+	width:19%;
+	padding:0;
+}
+.rowpadding{
+	margin:0;
+}
+.qck-margintop{
+	margin-top:15px;
 }
