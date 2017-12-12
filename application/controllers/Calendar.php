@@ -91,6 +91,8 @@ class Calendar extends MY_Controller
                 $this->db->insert('event', array(
                     // So you can work with the values, like:
                     'title' => $this->input->post('title', true), // TRUE is XSS protection
+                    'where' => $this->input->post('where', true), // TRUE is XSS protection
+                    'adress' => $this->input->post('adress', true), // TRUE is XSS protection
                     'texte' => $this->input->post('texte', true),
                     'start_date' => $start_date,
                     'end_date' => $end_date,

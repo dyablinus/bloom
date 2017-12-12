@@ -20,7 +20,7 @@
                     </a> </li>
                     <li><a class="smoth-scroll" href="#about">About</a> </li>
                     <li><a class="smoth-scroll" href="#work">Artistes</a> </li>
-                    <li><a class="smoth-scroll" href="#testimonial">Blog</a> </li>
+                    <li><a class="smoth-scroll" href="#calendar">Exhibitions</a> </li>
                     <li><a class="smoth-scroll" href="#contact-section">Contact</a> </li>
                     </li>
                 </ul>

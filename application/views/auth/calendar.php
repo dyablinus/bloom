@@ -12,7 +12,7 @@
 </div>              
 <section class="connectedSortable col-md-offset-1">
         <div class="row">
-                <div class="col-lg-4">
+                <div class="col-lg-5">
                 
                         <?php echo $this->session->flashdata('success'); ?> 
                         <?php echo $this->session->flashdata('error'); ?>
@@ -27,6 +27,18 @@
                         'title'  => 'title',
                         'Class'   => 'form-control',
                         'name'   => 'title'
+                        );
+
+                        $data_where = array(
+                        'where'  => 'where',
+                        'Class'   => 'form-control',
+                        'name'   => 'where'
+                        );
+
+                        $data_adress = array(
+                        'adress'  => 'adress',
+                        'Class'   => 'form-control',
+                        'name'   => 'adress'
                         );
 
                         $data_start_date = array(
@@ -60,9 +72,12 @@
                         <?php echo form_label('Start date', 'start_date'); ?>
                         <?php echo form_input($data_start_date); ?>
 
+                        <?php echo form_error('where'); ?>
+                        <?php echo form_label('Event place', 'where'); ?>
+                        <?php echo form_input($data_where); ?>
 
                 </div>        
-                <div class="col-lg-4">    
+                <div class="col-lg-5">    
                     <?php echo form_error('file'); ?>
                     <?php echo form_label('Picture max 2 Mo', 'userfile'); ?>
                     <?php echo form_upload($data_image); ?>
@@ -72,9 +87,12 @@
                         <?php echo form_label('End date', 'end_date'); ?>
                         <?php echo form_input($data_date_end); ?>
                     </div>
+                        
+                    <?php echo form_error('adress'); ?>
+                    <?php echo form_label('Adress', 'adress'); ?>
+                    <?php echo form_input($data_adress); ?>
                 </div>
         </div>
-        
         <div class="row">            
                 <div class="col-lg-10  connectedSortable" style="margin-top: 3%;">
                         <textarea id="some-textarea" name="texte" texte="texte" class="form-control" placeholder="Enter text ..." style="styles to copy to the iframe"></textarea>

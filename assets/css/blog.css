@@ -1348,6 +1348,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', e
 	font-weight:600;
 	font-size:30px;
 }
+.title_event{
+	font-size:20px;
+	margin-bottom: 20px;
+	font-weight:600;
+	color:#fff;
+}
 .link-zoom:hover{
 	color:#fff;
 }
@@ -1890,6 +1896,9 @@ display: inline-block;
 
 }
 #work{
+	position:relative;
+}
+#calendar{
 	position:relative;
 }
 
