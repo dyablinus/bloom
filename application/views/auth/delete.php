@@ -1,1 +1,1 @@
-<h1 class="bg-success">Votre post à bien été supprimé</h1>
+<h1 class="bg-success">Votre post a bien été supprimé</h1>

@@ -27,7 +27,7 @@
                 <tr>
                     <td>
                         <?php if ($rows->file_name): ?>
-                        <img class="img-responsive" src="<?php echo base_url("uploads/blog/$rows->file_name")?>" alt="">
+                        <img class="img-responsive" src="<?php echo base_url("uploads/draft/files/$rows->file_name")?>" alt="">
                         <?php endif;?>
                     </td>
                     <td>    
@@ -59,11 +59,8 @@
                             <h4 class="modal-title" id="myModalLabel">Terminer l'article</h4>
                         </div>
                         <div class="modal-body" id="contentEdit">
-
-
-                                <!-- <?= form_open('edit/create/' . $rows->id); ?> -->
                                 <?php
-                                $link=base_url('edit/create');
+                                $link=base_url('edit/update_draft');
                                 echo form_open_multipart($link); ?>
                                 <?php
 
@@ -75,12 +72,10 @@
                                 );
 
                                 $data_texte = array(
-                                        'title'  => 'texte',
+                                        'texte'  => 'texte',
                                         'Class'   => 'form-control',
                                         'value'   => $rows->texte,
-                                        'name'   => 'texte',
-                                        'id' => 'some-textarea',
-                                        'style' => 'styles to copy to the iframe'
+                                        'name'   => 'texte'
 
                                 );
                                 $data_image = array(
@@ -109,14 +104,14 @@
                                         <?php echo form_upload($data_image); ?>
 
                                 <?php echo form_label('Article', 'poste'); ?>
-                                <?php echo form_input($data_texte); ?>
-                                <!-- <textarea id="some-textarea" name="texte" texte="texte" class="form-control" placeholder="<?php echo $rows->texte ?>" style="styles to copy to the iframe"></textarea> -->
+                                <?php echo form_input($data_texte); ?> 
 
                             </div>
 
                         <div class="modal-footer">
-                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                            <?php echo form_submit('mysubmit', 'Publish', array('class' => 'btn btn-primary')); ?>
+                            <!-- <button type="button" class="btn btn-default" data-dismiss="modal">Close</button> -->
+                            <?php echo form_submit('mysubmit', 'Publish', array('class' => 'btn btn-primary', 'data-dismiss' => 'modal')); ?>
+                            <?php echo form_submit('mysubmit', 'Save', array('class' => 'btn btn-info', 'data-dismiss' => 'modal')); ?>
                                 <?= form_close() ?>
                         </div>
                         </div>
@@ -129,7 +124,7 @@
                         <div class="modal-content">
                             <div class="modal-header">
                                     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                                    <h4 class="modal-title" id="myModalLabel">Supprimer l'article</h4>
+                                    <h4 class="modal-title" id="myModalLabel">Delete an article</h4>
                             </div>   
                             <div class="modal-body" id="contentEdit">
                             
@@ -143,16 +138,18 @@
                                         'name'   => 'title'
                                 );
                                 $data_texte = array(
-                                        'texte'  => 'texte',
+                                        'title'  => 'texte',
                                         'Class'   => 'form-control',
                                         'value'   => $rows->texte,
-                                        'name'   => 'texte'
+                                        'name'   => 'texte',
+                                        'id' => 'some-textarea',
+                                        'style' => 'styles to copy to the iframe'
                                 );
                                 ?>
                                 <?php echo form_hidden('id_post', $rows->id);?>
-                                <?php echo form_label('What is your title', 'title'); ?>
+                                <?php echo form_label('your title', 'title'); ?>
                                 <?= form_input($data_title); ?>
-                                <?php echo form_label('What is your content', 'texte'); ?>
+                                <?php echo form_label('Your content', 'poste'); ?>
                                 <?= form_textarea($data_texte); ?>
 
                                 <?= form_close() ?>
@@ -161,7 +158,7 @@
 
                             <div class="modal-footer">
                                 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                                <a href=" <?php echo base_url("edit/delete/".$rows->id); ?>"class="btn btn-lg btn-warning">Delete</a>
+                                <a href=" <?php echo base_url("edit/delete_draft/".$rows->id); ?>"class="btn btn-lg btn-warning">Delete</a>
                             </div>
                         </div>
                     </div>

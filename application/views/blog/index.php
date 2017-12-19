@@ -207,20 +207,35 @@
     </div>
       <!-- work Filter -->
     <div class="row container-masonry nf-col-4">
-      <div class="nf-item w2x branding coffee spacing">
-        <div class="item-box"> <img alt="1" src="assets/images/blog/portfolio3/1.jpg" class="item-container">
-          <a href="assets/images/blog/portfolio3/1.jpg"
-            class="fancylight" data-fancybox-group="light">
-            <div class="link-zoom">
-              <div class="link-zoom__text">
-                <h4>Soor</h4>
-                <span class="project_status">Soor.com</span> <span class="project_date">17.11.2017</span> </div>
-            </div>
-          </a>
-        </div>
-      </div>
+      <?php $query = $this->db->query("SELECT * FROM event WHERE deleted=0 ORDER BY id DESC LIMIT 0,1;");
+      foreach($query->result() as $rows){ ?>
 
-      <?php $query = $this->db->query("SELECT * FROM event WHERE deleted=0 ORDER BY id DESC LIMIT 0,8;");
+      <div class="nf-item w2x branding coffee spacing">
+          <div class="item-box"> <img alt="1" src="<?php echo base_url("uploads/calendar/files/$rows->file_name")?>"  class="item-container">
+            <a data-toggle="modal" data-target="#myModal<?php echo $rows->id?>">
+              <div class="link-zoom">
+                <div class="link-zoom__text">
+
+                  <?php if (strlen(($rows->title)) > 41 ){?>
+                  <h3 class="title_event"><?php $t = substr($rows->title, 0, 40)." ...";echo $t ?> </h3>
+                  <?php }else{ ?>
+                  <h3 class="title_event"><?php echo $rows->title ?> </h3>
+                  <?php }?>
+
+                  <span class="project_status"><?php echo $rows->where ?></span> 
+                  <?php if (strlen(($rows->start_date)) > 10 ){?>
+                  <span class="project_date"><?php $t = substr($rows->start_date, 0, 10);echo $t ?> </span>
+                  <?php }?>
+                  <?php if (strlen(($rows->end_date)) > 10 ){?>
+                  <span class="project_date"><?php $t = substr($rows->end_date, 0, 10);echo $t ?> </span>
+                  <?php }?>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      <?php } ?>
+      <?php $query = $this->db->query("SELECT * FROM event WHERE deleted=0 ORDER BY id DESC LIMIT 1,8;");
       foreach($query->result() as $rows){ ?>
 
         <div class="nf-item grid-sizer photo spacing">
@@ -247,48 +262,49 @@
             </a>
           </div>
         </div>
-      <?php } ?>
+
       <!-- Modal -->
       <div class="modal fade" id="myModal<?php echo $rows->id?>" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-          <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+              <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
 
-                  <?php if (strlen(($rows->title)) > 41 ){?>
-                  <h4 class="modal-title" id="myModalLabel"><?php $t = substr($rows->title, 0, 40)." ...";echo $t ?> </h4>
-                  <?php }else{ ?>
-                  <h4 class="modal-title text-center" id="myModalLabel"><?php echo $rows->title ?> </h4>
-                  <?php }?>
-                </div>
-              <div class="modal-body" id="contentEdit">
-                <div class="row">
-                  <div class="col-xs-6">
-                    <img alt="1" src="<?php echo base_url("uploads/calendar/files/$rows->file_name")?>">
-                  </div>
-                  <div class="col-xs-6">
-                  
-                      <h4><?php echo $rows->where?></h4>
-                      <h5><?php echo $rows->adress?></h5>
-                      <?php if (strlen(($rows->start_date)) > 10 ){?>
-                      <h5>Start date</h5>
-                      <h6 class="project_date"><?php $t = substr($rows->start_date, 0, 10);echo $t ?> </h6>
-                      <?php }?>
-                      <h5>End date</h5>
-                      <?php if (strlen(($rows->end_date)) > 10 ){?>
-                      <h6 class="project_date"><?php $t = substr($rows->end_date, 0, 10);echo $t ?> </h6>
-                      <?php }?>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col-xs-12"><p><?php echo $rows->texte ?></p></div>
-                </div>
-          
+                <?php if (strlen(($rows->title)) > 41 ){?>
+                <h4 class="modal-title" id="myModalLabel"><?php $t = substr($rows->title, 0, 40)." ...";echo $t ?> </h4>
+                <?php }else{ ?>
+                <h4 class="modal-title text-center" id="myModalLabel"><?php echo $rows->title ?> </h4>
+                <?php }?>
               </div>
-
+            <div class="modal-body" id="contentEdit">
+              <div class="row">
+                <div class="col-xs-6">
+                  <img alt="1" src="<?php echo base_url("uploads/calendar/files/$rows->file_name")?>">
+                </div>
+                <div class="col-xs-6">
+                
+                    <h4><?php echo $rows->where?></h4>
+                    <h5><?php echo $rows->adress?></h5>
+                    <?php if (strlen(($rows->start_date)) > 10 ){?>
+                    <h5>Start date</h5>
+                    <h6 class="project_date"><?php $t = substr($rows->start_date, 0, 10);echo $t ?> </h6>
+                    <?php }?>
+                    <h5>End date</h5>
+                    <?php if (strlen(($rows->end_date)) > 10 ){?>
+                    <h6 class="project_date"><?php $t = substr($rows->end_date, 0, 10);echo $t ?> </h6>
+                    <?php }?>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-xs-12"><p><?php echo $rows->texte ?></p></div>
+              </div>
+        
             </div>
+
           </div>
+        </div>
       </div>
+    <?php } ?>
     </div>
     <div class="text-center">
       <button class="btn" type="button" name="button"> See more </button> 

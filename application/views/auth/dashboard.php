@@ -64,9 +64,9 @@
                         <textarea id="some-textarea" name="texte" texte="texte" class="form-control" placeholder="Enter text ..." style="styles to copy to the iframe"></textarea>
                         
                         <?php echo form_submit('mysubmit', 'Publish', array('class' => 'btn btn-primary')); ?>
+                        <?php echo form_submit('mysubmit', 'Save', array('class' => 'btn btn-info')); ?>
                         <?php echo form_close() ?> 
                         
-                        <button href="<?php echo base_url("edit/save") ?>" type="button" class="btn btn-info">Save</button>
                 </div>
         </div> 
 </section>

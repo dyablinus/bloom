@@ -27,7 +27,7 @@
                 <tr>
                     <td>
                         <?php if ($rows->file_name): ?>
-                        <img class="img-responsive" src="<?php echo base_url("uploads/blog/$rows->file_name")?>" alt="">
+                        <img class="img-responsive" src="<?php echo base_url("uploads/blog/files/$rows->file_name")?>" alt="">
                         <?php endif;?>
                     </td>
                     <td>    
