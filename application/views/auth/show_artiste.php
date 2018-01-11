@@ -92,7 +92,7 @@
                                         <option class="no_value" value=""><?php echo $rows->valeur ?></option>
                                         <option class="Photographe" for="valeur">Photographie</option>
                                         <option class="Peintre" for="valeur">Peinture</option>      
-                                        <option class="Sculpteur" for="valeur">Sculpture/Volume</option>      
+                                        <option class="Sculpteur" for="valeur">Installation</option>      
                                         <option class="Sculpteur" for="valeur">Dessin</option>      
                                 </select>
                                 <br>

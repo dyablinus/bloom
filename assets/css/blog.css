@@ -2255,3 +2255,15 @@ display: inline-block;
 .qck-margintop{
 	margin-top:15px;
 }
+
+.margin-top-art{
+	 padding: 15%  0; 
+	background-color: #ccc8c8;
+}
+.titre-decallage {
+	padding:  0  0 2% 15%;
+}
+
+.padding-text {
+	padding-top: 10%;
+}

@@ -73,7 +73,16 @@
         $('#Modal').modal('show');
         });
     </script>
- 
+    <script type="text/javascript">
+        $('.owl-carousel').owlCarousel({
+        margin:10,
+        loop:true,
+        autoWidth:true,
+        autoplay:true,
+        autoplayTimeout:2200,
+        items:4
+        })
+    </script>
 
 </body>
 

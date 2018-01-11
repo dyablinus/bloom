@@ -69,122 +69,30 @@
     <div class="row">
       <ul class="container-filter categories-filter">
         <li> <a class="categories active" data-filter="*">All</a> </li>
-        <li> <a class="categories" data-filter=".branding">Painting</a> </li>
-        <li> <a class="categories" data-filter=".design">Photo</a> </li>
-        <li> <a class="categories" data-filter=".photo">Drawing</a> </li>
-        <li> <a class="categories" data-filter=".coffee">Volume</a> </li>
+        <li> <a class="categories" data-filter=".Peinture">Painting</a> </li>
+        <li> <a class="categories" data-filter=".Photographie">Photo</a> </li>
+        <li> <a class="categories" data-filter=".Dessin">Drawing</a> </li>
+        <li> <a class="categories" data-filter=".Installation">Intsallation</a> </li>
       </ul>
     </div>
     <!-- End work Filter -->
     <div class="row container-masonry nf-col-4">
-      <!-- <div class="nf-item w2x branding coffee spacing">
-        <div class="item-box"> <img alt="1" src="assets/images/blog/portfolio3/1.jpg" class="item-container">
-          <a href="assets/images/blog/portfolio3/1.jpg"
-            class="fancylight" data-fancybox-group="light">
-            <div class="link-zoom">
-              <div class="link-zoom__text">
-                <h4>Branding</h4>
-                <span class="project_status">Work Is Done</span> <span class="project_date">07.08.2017</span> </div>
-            </div>
-          </a>
+      <?php $query = $this->db->query("SELECT * FROM artiste WHERE deleted=0 ORDER BY id DESC LIMIT 0,8;");
+      foreach($query->result() as $rows){ ?>
+        <div class="nf-item grid-sizer spacing <?php echo $rows->valeur ?>">
+          <div class="item-box"> <img alt="1" src="<?php echo base_url("uploads/artistes/$rows->file_name")?>" class="item-container">
+            <a href="<?php echo base_url("/artiste/focus/".$rows->name) ?>"
+              class="fancylight" data-fancybox-group="light">
+              <div class="link-zoom">
+                <div class="link-zoom__text">
+                  <h4><?php echo $rows->name ?></h4>
+                  <span class="project_status"><?php echo $rows->valeur ?></span></div>
+              </div>
+            </a>
+          </div>
         </div>
-      </div> -->
-      <div class="nf-item grid-sizer photo spacing">
-        <div class="item-box"> <img alt="1" src="assets/images/blog/portfolio3/soor_focus.jpg" class="item-container">
-          <a href="assets/images/blog/portfolio3/2.jpg"
-            class="fancylight" data-fancybox-group="light">
-            <div class="link-zoom">
-              <div class="link-zoom__text">
-                <h4>Photo</h4>
-                <span class="project_status">Work Is Done</span> <span class="project_date">08.08.2017</span> </div>
-            </div>
-          </a>
-        </div>
-      </div>
-      <div class="nf-item branding photo spacing">
-        <div class="item-box"> <img alt="1" src="assets/images/blog/portfolio3/3.jpg" class="item-container">
-          <a href="assets/images/blog/portfolio3/3.jpg"
-            class="fancylight" data-fancybox-group="light">
-            <div class="link-zoom">
-              <div class="link-zoom__text">
-                <h4>photo</h4>
-                <span class="project_status">Work Is Done</span> <span class="project_date">09.08.2017</span> </div>
-            </div>
-          </a>
-        </div>
-      </div>
-      <div class="nf-item design spacing">
-        <div class="item-box"> <img alt="1" src="assets/images/blog/portfolio3/4.jpg" class="item-container">
-          <a href="assets/images/blog/portfolio3/4.jpg"
-            class="fancylight" data-fancybox-group="light">
-            <div class="link-zoom">
-              <div class="link-zoom__text">
-                <h4>Design</h4>
-                <span class="project_status">Work Is Done</span> <span class="project_date">10.08.2017</span> </div>
-            </div>
-          </a>
-        </div>
-      </div>
-      <div class="nf-item photo spacing">
-        <div class="item-box"> <img alt="1" src="assets/images/blog/portfolio3/5.jpg" class="item-container">
-          <a href="assets/images/blog/portfolio3/5.jpg"
-            class="fancylight" data-fancybox-group="light">
-            <div class="link-zoom">
-              <div class="link-zoom__text">
-                <h4>Design</h4>
-                <span class="project_status">Work Is Done</span> <span class="project_date">11.08.2017</span> </div>
-            </div>
-          </a>
-        </div>
-      </div>
-      <div class="nf-item grid-sizer photo spacing">
-        <div class="item-box"> <img alt="1" src="assets/images/blog/portfolio3/2.jpg" class="item-container">
-          <a href="assets/images/blog/portfolio3/2.jpg"
-            class="fancylight" data-fancybox-group="light">
-            <div class="link-zoom">
-              <div class="link-zoom__text">
-                <h4>Photo</h4>
-                <span class="project_status">Work Is Done</span> <span class="project_date">08.08.2017</span> </div>
-            </div>
-          </a>
-        </div>
-      </div>
-      <div class="nf-item branding photo spacing">
-        <div class="item-box"> <img alt="1" src="assets/images/blog/portfolio3/3.jpg" class="item-container">
-          <a href="assets/images/blog/portfolio3/3.jpg"
-            class="fancylight" data-fancybox-group="light">
-            <div class="link-zoom">
-              <div class="link-zoom__text">
-                <h4>photo</h4>
-                <span class="project_status">Work Is Done</span> <span class="project_date">09.08.2017</span> </div>
-            </div>
-          </a>
-        </div>
-      </div>
-      <div class="nf-item design spacing">
-        <div class="item-box"> <img alt="1" src="assets/images/blog/portfolio3/4.jpg" class="item-container">
-          <a href="assets/images/blog/portfolio3/4.jpg"
-            class="fancylight" data-fancybox-group="light">
-            <div class="link-zoom">
-              <div class="link-zoom__text">
-                <h4>Design</h4>
-                <span class="project_status">Work Is Done</span> <span class="project_date">10.08.2017</span> </div>
-            </div>
-          </a>
-        </div>
-      </div>
-      <div class="nf-item photo spacing">
-        <div class="item-box"> <img alt="1" src="assets/images/blog/portfolio3/5.jpg" class="item-container">
-          <a href="assets/images/blog/portfolio3/5.jpg"
-            class="fancylight" data-fancybox-group="light">
-            <div class="link-zoom">
-              <div class="link-zoom__text">
-                <h4>Design</h4>
-                <span class="project_status">Work Is Done</span> <span class="project_date">11.08.2017</span> </div>
-            </div>
-          </a>
-        </div>
-      </div>
+      <?php } ?>
+
     </div>
     <div class="text-center">
       <button class="btn" type="button" name="button"> See more </button> 
